@@ -1,0 +1,51 @@
+{
+  "name": "@superflycss/utilities-effects",
+  "version": "1.0.0",
+  "description": "Effects utilities",
+  "main": "src/main/css/index.css",
+  "scripts": {
+    "update": "ncu -a && npm i",
+    "clean": "gulp clean",
+    "build": "npm run clean && gulp build:css",
+    "test": "npm run build && gulp test:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/utilities-effects.git"
+  },
+  "keywords": [
+    "css",
+    "effects",
+    "blurs",
+    "filters",
+    "shadows",
+    "superflycss",
+    "events",
+    "brightness",
+    "grayscale",
+    "contrast",
+    "drop-shadow",
+    "sepia",
+    "opacity",
+    "invert",
+    "hue-rotate",
+    "saturate"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superflycss/utilities-effects/issues"
+  },
+  "homepage": "https://github.com/superflycss/utilities-effects#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "npm-check-updates": "^2.13.0",
+    "@superflycss/task-build": "^1.0.5",
+    "@superflycss/task-clean": "^1.0.2",
+    "@superflycss/task-deploy": "^2.1.2",
+    "@superflycss/task-test": "^1.0.7"
+  },
+  "dependencies": {
+    "@superflycss/variables-colors": "^2.1.0"
+  }
+}
