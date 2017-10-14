@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/utilities-effects",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Effects utilities",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -29,7 +29,8 @@
     "opacity",
     "invert",
     "hue-rotate",
-    "saturate"
+    "saturate",
+    "box shadows"
   ],
   "author": "Ole Ersoy",
   "license": "MIT",
