@@ -9,125 +9,124 @@
    4: Transition Effects
    5: Letter spacing
    6: Lighten and darken background and borders (Uses linear gradient)
+   7: Box shadows
    ======================================= */
 
 @import "@superflycss/variables-colors";
 /* 0 */
+
 @each $percentage in 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 {
-    :root {
-      --u-invert-$(percentage) {
-          filter: invert($(percentage)%);
-      }
+  :root {
+    --u-invert-$(percentage) {
+      filter: invert($(percentage)%);
     }
-    .u-invert-$(percentage) {
-        @apply(--u-invert-$(percentage));
-    }
+  }
+  .u-invert-$(percentage) {
+    @apply(--u-invert-$(percentage));
+  }
 }
 
 /* 1 */
+
 @each $percentage in 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 {
-    @each $event in active, focus, disabled, visited, hover {
-      :root {
-        --u-on-$(event)-invert-$(percentage) {
-            filter: invert($(percentage)%);
-        }
-      }
-      .u-on-$(event)-invert-$(percentage):$(event) {
-          @apply(--u-on-$(event)-invert-$(percentage));
+  @each $event in active, focus, disabled, visited, hover {
+    :root {
+      --u-on-$(event)-invert-$(percentage) {
+        filter: invert($(percentage)%);
       }
     }
+    .u-on-$(event)-invert-$(percentage):$(event) {
+      @apply(--u-on-$(event)-invert-$(percentage));
+    }
+  }
 }
 
 /* 2 */
+
 @for $factor from 1 to 50 {
-    :root {
-        --u-text-shadow-blur-$(factor)x {
-          text-shadow: 0px 0px $(factor)rem rgba(0,0,0,0.90);
-        }
+  :root {
+    --u-text-shadow-blur-$(factor)x {
+      text-shadow: 0px 0px $(factor)rem rgba(0, 0, 0, 0.90);
     }
-    .u-text-shadow-blur-$(factor)x {
-       @apply(--u-text-shadow-blur-$(factor)x);
-    }
+  }
+  .u-text-shadow-blur-$(factor)x {
+    @apply(--u-text-shadow-blur-$(factor)x);
+  }
 }
 
 @each $event in active, focus, disabled, visited, hover {
-    @for $factor from 1 to 50 {
-        .u-on-$(event)-text-shadow-blur-$(factor)x:$(event) {
-           @apply(--u-text-shadow-blur-$(factor)x);
-        }
+  @for $factor from 1 to 50 {
+    .u-on-$(event)-text-shadow-blur-$(factor)x:$(event) {
+      @apply(--u-text-shadow-blur-$(factor)x);
     }
+  }
 }
 
 /* 3 */
+
 @each $event in active, focus, disabled, visited, hover {
-    @each $color in
-    sf-neon-mustard, sf-soft-white, sf-tomato-red, sf-purple-pink, sf-light-orange-red, sf-silver-grey, alice-blue, antique-white, aqua, aqua-marine, azure, beige, bisque, black, blanched-almond, blue, blue-violet, brown, burly-wood, cadet-blue, chartreuse, chocolate, coral, corn-flower-blue, cornsilk, crimson, cyan, dark-blue, dark-cyan, dark-golden-rod, dark-gray, dark-green, dark-khaki, dark-magenta, dark-olive-green, dark-orange, dark-orchid, dark-red, dark-salmon, dark-sea-green, dark-slate-blue, dark-slate-gray, dark-turquoise, dark-violet, deep-pink, deep-sky-blue, dim-gray, dodger-blue, fire-brick, floral-white, forest-green, fuchsia, gainsboro, ghost-white, gold, golden-rod, gray, green, green-yellow, honey-dew, hot-pink, indian-red, indigo, ivory, khaki, lavender, lavender-blush, lawn-green, lemon-chiffon, light-blue, light-coral, light-cyan, light-goldenrod-yellow, light-gray, light-green, light-pink, light-salmon, light-sea-green, light-sky-blue, light-slate-gray, light-steel-blue, light-yellow, lime, lime-green, linen, magenta, maroon, medium-aquamarine, medium-blue, medium-orchid, medium-purple, medium-sea-green, medium-slate-blue, medium-spring-green, medium-turquoise, medium-violet-red, midnight-blue, mint-cream, misty-rose, moccasin, navajo-white, navy, old-lace, olive, olive-drab, orange, orange-red, orchid, pale-golden-rod, pale-green, pale-turquoise, pale-violet-red, papaya-whip, peach-puff, peru, pink, plum, powder-blue, purple, red, rosy-brown, royal-blue, saddle-brown, salmon, sandy-brown, sea-green, sea-shell, sienna, silver, sky-blue, slate-blue, slate-gray, snow, spring-green, steel-blue, tan, teal, thistle, tomato, turquoise, violet, wheat, white, white-smoke, yellow, yellow-green
-    {
-        :root {
-          --u-on-$(event)-text-color-$(color) {
-              color: var(--color-$(color)) !important;
-          }
-        }
-
-        .u-on-$(event)-text-color-$(color):$(event) {
-            @apply(--u-on-$(event)-text-color-$(color));
-        }
-
-        :root {
-          --u-on-$(event)-background-color-$(color) {
-              background-color: var(--color-$(color)) !important;
-          }
-        }
-
-        .u-on-$(event)-background-color-$(color):$(event) {
-            @apply(--u-on-$(event)-background-color-$(color));
-        }
-
-        :root {
-          --u-on-$(event)-border-color-$(color) {
-              border-color: var(--color-$(color)) !important;
-          }
-        }
-
-        .u-on-$(event)-border-color-$(color):$(event) {
-            @apply(--u-on-$(event)-border-color-$(color));
-        }
+  @each $color in sf-neon-mustard, sf-soft-white, sf-tomato-red, sf-purple-pink, sf-light-orange-red, sf-silver-grey, alice-blue, antique-white, aqua, aqua-marine, azure, beige, bisque, black, blanched-almond, blue, blue-violet, brown, burly-wood, cadet-blue, chartreuse, chocolate, coral, corn-flower-blue, cornsilk, crimson, cyan, dark-blue, dark-cyan, dark-golden-rod, dark-gray, dark-green, dark-khaki, dark-magenta, dark-olive-green, dark-orange, dark-orchid, dark-red, dark-salmon, dark-sea-green, dark-slate-blue, dark-slate-gray, dark-turquoise, dark-violet, deep-pink, deep-sky-blue, dim-gray, dodger-blue, fire-brick, floral-white, forest-green, fuchsia, gainsboro, ghost-white, gold, golden-rod, gray, green, green-yellow, honey-dew, hot-pink, indian-red, indigo, ivory, khaki, lavender, lavender-blush, lawn-green, lemon-chiffon, light-blue, light-coral, light-cyan, light-goldenrod-yellow, light-gray, light-green, light-pink, light-salmon, light-sea-green, light-sky-blue, light-slate-gray, light-steel-blue, light-yellow, lime, lime-green, linen, magenta, maroon, medium-aquamarine, medium-blue, medium-orchid, medium-purple, medium-sea-green, medium-slate-blue, medium-spring-green, medium-turquoise, medium-violet-red, midnight-blue, mint-cream, misty-rose, moccasin, navajo-white, navy, old-lace, olive, olive-drab, orange, orange-red, orchid, pale-golden-rod, pale-green, pale-turquoise, pale-violet-red, papaya-whip, peach-puff, peru, pink, plum, powder-blue, purple, red, rosy-brown, royal-blue, saddle-brown, salmon, sandy-brown, sea-green, sea-shell, sienna, silver, sky-blue, slate-blue, slate-gray, snow, spring-green, steel-blue, tan, teal, thistle, tomato, turquoise, violet, wheat, white, white-smoke, yellow, yellow-green {
+    :root {
+      --u-on-$(event)-text-color-$(color) {
+        color: var(--color-$(color)) !important;
+      }
     }
+    .u-on-$(event)-text-color-$(color):$(event) {
+      @apply(--u-on-$(event)-text-color-$(color));
+    }
+    :root {
+      --u-on-$(event)-background-color-$(color) {
+        background-color: var(--color-$(color)) !important;
+      }
+    }
+    .u-on-$(event)-background-color-$(color):$(event) {
+      @apply(--u-on-$(event)-background-color-$(color));
+    }
+    :root {
+      --u-on-$(event)-border-color-$(color) {
+        border-color: var(--color-$(color)) !important;
+      }
+    }
+    .u-on-$(event)-border-color-$(color):$(event) {
+      @apply(--u-on-$(event)-border-color-$(color));
+    }
+  }
 }
 
 @each $event in active, focus, disabled, visited, hover {
-        @for $a from 0 to 9 {
-            @for $b from 0 to 9 {
-                @for $c from 0 to 9 {
-                    :root {
-                      --u-on-$(event)-background-color-$(a)$(b)$(c) {
-                              background-color: #$(a)$(b)$(c) !important;
-                        }
-                      --u-on-$(event)-border-color-$(a)$(b)$(c) {
-                              border-color: #$(a)$(b)$(c) !important;
-                        }
-                      --u-on-$(event)-text-color-$(a)$(b)$(c) {
-                              background-color: #$(a)$(b)$(c) !important;
-                        }
-                    }
-                   .u-on-$(event)-background-color-$(a)$(b)$(c):$(event) {
-                      background-color: var(--color-$(a)$(b)$(c)) !important;
-                    }
-                   .u-on-$(event)-text-color-$(a)$(b)$(c):$(event) {
-                      color: var(--color-$(a)$(b)$(c)) !important;
-                    }
-                   .u-on-$(event)-border-color-$(a)$(b)$(c):$(event) {
-                      border-color: var(--color-$(a)$(b)$(c)) !important;
-                    }
-                }
-            }
+  @for $a from 0 to 9 {
+    @for $b from 0 to 9 {
+      @for $c from 0 to 9 {
+        :root {
+          --u-on-$(event)-background-color-$(a)$(b)$(c) {
+            background-color: #$(a)$(b)$(c) !important;
+          }
+          --u-on-$(event)-border-color-$(a)$(b)$(c) {
+            border-color: #$(a)$(b)$(c) !important;
+          }
+          --u-on-$(event)-text-color-$(a)$(b)$(c) {
+            background-color: #$(a)$(b)$(c) !important;
+          }
         }
+        .u-on-$(event)-background-color-$(a)$(b)$(c):$(event) {
+          background-color: var(--color-$(a)$(b)$(c)) !important;
+        }
+        .u-on-$(event)-text-color-$(a)$(b)$(c):$(event) {
+          color: var(--color-$(a)$(b)$(c)) !important;
+        }
+        .u-on-$(event)-border-color-$(a)$(b)$(c):$(event) {
+          border-color: var(--color-$(a)$(b)$(c)) !important;
+        }
+      }
+    }
+  }
 }
 
 /* 4 */
+
 :root {
   --u-transition-all {
-      transition-property: all !important;
+    transition-property: all !important;
   }
 }
 
@@ -136,106 +135,85 @@
 }
 
 @each $timing in linear, ease, ease-in, ease-out, step-start, step-end, initial, inherit {
-    :root {
-      --u-transition-timing-$(timing) {
-          transition-property: $(timing) !important;
-      }
+  :root {
+    --u-transition-timing-$(timing) {
+      transition-property: $(timing) !important;
     }
-    .u-transition-timing-$(timing) {
-        @apply(--u-transition-timing-$(timing));
-    }
+  }
+  .u-transition-timing-$(timing) {
+    @apply(--u-transition-timing-$(timing));
+  }
 }
 
-
 @for $factor from 0 to 50 {
-    :root {
-        --u-transition-duration-$(factor)x {
-            transition-duration: calc(.1*$(factor))s;
-        }
+  :root {
+    --u-transition-duration-$(factor)x {
+      transition-duration: calc(.1*$(factor))s;
     }
-    .u-transition-duration-$(factor)x {
-        @apply(--u-transition-duration-$(factor)x);
-    }
+  }
+  .u-transition-duration-$(factor)x {
+    @apply(--u-transition-duration-$(factor)x);
+  }
 }
 
 /* 5 */
+
 @for $spacing from 0 to 100 {
-    :root {
-        --u-letter-spacing-$(spacing)x {
-            letter-spacing: $(spacing)px !important;
-        }
+  :root {
+    --u-letter-spacing-$(spacing)x {
+      letter-spacing: $(spacing)px !important;
     }
-    .u-letter-spacing-$(spacing)x {
-        @apply(--u-letter-spacing-$(spacing)x);
-    }
+  }
+  .u-letter-spacing-$(spacing)x {
+    @apply(--u-letter-spacing-$(spacing)x);
+  }
 }
 
 @each $event in active, focus, disabled, visited, hover {
-    @for $spacing from 0 to 100 {
-        :root {
-            --u-on-$(event)-letter-spacing-$(spacing)x {
-                letter-spacing: $(spacing)px !important;
-            }
-        }
-        .u-on-$(event)-letter-spacing-$(spacing)x:$(event) {
-            @apply(--u-on-$(event)-letter-spacing-$(spacing)x);
-        }
+  @for $spacing from 0 to 100 {
+    :root {
+      --u-on-$(event)-letter-spacing-$(spacing)x {
+        letter-spacing: $(spacing)px !important;
+      }
     }
+    .u-on-$(event)-letter-spacing-$(spacing)x:$(event) {
+      @apply(--u-on-$(event)-letter-spacing-$(spacing)x);
+    }
+  }
 }
 
-
 /* 6 */
+
 @for $percentage from 0 to 100 {
-    :root {
-        --u-background-lighten-$(percentage) {
-              background:
-              linear-gradient(
-                rgba(255, 255, 255,
-                calc($(percentage)/100)),
-                rgba(255, 255, 255,
-                calc($(percentage)/100))
-          ) !important;
-        }
-        --u-background-darken-$(percentage) {
-              background:
-              linear-gradient(
-                rgba(0, 0, 0,
-                calc($(percentage)/100)),
-                rgba(0, 0, 0,
-                calc($(percentage)/100))
-          ) !important;
-        }
-        --u-border-darken-$(percentage) {
-            	border-image: linear-gradient(
-                to bottom,
-                rgba(0, 0, 0,
-                calc($(percentage)/100)),
-                rgba(0, 0, 0,
-                calc($(percentage)/100)),
-                rgba(0, 0, 0,
-                calc($(percentage)/100))) !important;
-        }
-        --u-border-lighten-$(percentage) {
-            	border-image: linear-gradient(
-                to bottom,
-                rgba(255, 255, 255,
-                calc($(percentage)/100)),
-                rgba(255, 255, 255,
-                calc($(percentage)/100)),
-                rgba(255, 255, 255,
-                calc($(percentage)/100))) !important;
-        }
+  :root {
+    --u-background-lighten-$(percentage) {
+      background: linear-gradient( rgba(255, 255, 255, calc($(percentage)/100)), rgba(255, 255, 255, calc($(percentage)/100))) !important;
     }
-    .u-background-lighten-$(percentage) {
-        @apply(--u-background-lighten-$(percentage));
+    --u-background-darken-$(percentage) {
+      background: linear-gradient( rgba(0, 0, 0, calc($(percentage)/100)), rgba(0, 0, 0, calc($(percentage)/100))) !important;
     }
-    .u-background-darken-$(percentage) {
-        @apply(--u-background-darken-$(percentage));
+    --u-border-darken-$(percentage) {
+      border-image: linear-gradient( to bottom, rgba(0, 0, 0, calc($(percentage)/100)), rgba(0, 0, 0, calc($(percentage)/100)), rgba(0, 0, 0, calc($(percentage)/100))) !important;
     }
-    .u-border-darken-$(percentage) {
-        @apply(--u-border-darken-$(percentage));
+    --u-border-lighten-$(percentage) {
+      border-image: linear-gradient( to bottom, rgba(255, 255, 255, calc($(percentage)/100)), rgba(255, 255, 255, calc($(percentage)/100)), rgba(255, 255, 255, calc($(percentage)/100))) !important;
     }
-    .u-border-lighten-$(percentage) {
-        @apply(--u-border-lighten-$(percentage));
-    }
+  }
+  .u-background-lighten-$(percentage) {
+    @apply(--u-background-lighten-$(percentage));
+  }
+  .u-background-darken-$(percentage) {
+    @apply(--u-background-darken-$(percentage));
+  }
+  .u-border-darken-$(percentage) {
+    @apply(--u-border-darken-$(percentage));
+  }
+  .u-border-lighten-$(percentage) {
+    @apply(--u-border-lighten-$(percentage));
+  }
+}
+
+/* 7 */
+.u-box-shadow-0-2-12-0-dfe3eb {
+  box-shadow: 0 2px 12px 0 #dfe3eb;
 }
