@@ -1,0 +1,46 @@
+/* =======================================
+   EFFECTS
+   Transition Effects
+   ======================================= */
+
+:root {
+    --u-transition-all {
+        transition-property: all !important;
+    }
+}
+
+.u-transition-all {
+    @apply(--u-transition-all);
+}
+
+@each $timing in linear, ease, ease-in, ease-out, step-start, step-end, initial, inherit {
+    :root {
+        --u-transition-timing-$(timing) {
+            @for $factor from 0 to 50 {
+                :root {
+                    --u-transition-duration-$(factor)x {
+                        transition-duration: calc(.1*$(factor))s;
+                    }
+                }
+                .u-transition-duration-$(factor)x {
+                    @apply(--u-transition-duration-$(factor)x);
+                }
+            }
+            transition-property: $(timing) !important;
+        }
+    }
+    .u-transition-timing-$(timing) {
+        @apply(--u-transition-timing-$(timing));
+    }
+}
+
+@for $factor from 0 to 50 {
+    :root {
+        --u-transition-duration-$(factor)x {
+            transition-duration: calc(.1*$(factor))s;
+        }
+    }
+    .u-transition-duration-$(factor)x {
+        @apply(--u-transition-duration-$(factor)x);
+    }
+}
