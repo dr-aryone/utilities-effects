@@ -1,0 +1,2025 @@
+/* =======================================
+   EFFECTS
+   Event based letter spacing.  The the non event
+   based counter part in @superflycss/utilities-format.
+   ====q=================================== */
+
+.u-on-active-letter-spacing-0x:active {
+  letter-spacing: 0px !important;
+        }
+
+.u-on-active-letter-spacing-1x:active {
+  letter-spacing: 1px !important;
+        }
+
+.u-on-active-letter-spacing-2x:active {
+  letter-spacing: 2px !important;
+        }
+
+.u-on-active-letter-spacing-3x:active {
+  letter-spacing: 3px !important;
+        }
+
+.u-on-active-letter-spacing-4x:active {
+  letter-spacing: 4px !important;
+        }
+
+.u-on-active-letter-spacing-5x:active {
+  letter-spacing: 5px !important;
+        }
+
+.u-on-active-letter-spacing-6x:active {
+  letter-spacing: 6px !important;
+        }
+
+.u-on-active-letter-spacing-7x:active {
+  letter-spacing: 7px !important;
+        }
+
+.u-on-active-letter-spacing-8x:active {
+  letter-spacing: 8px !important;
+        }
+
+.u-on-active-letter-spacing-9x:active {
+  letter-spacing: 9px !important;
+        }
+
+.u-on-active-letter-spacing-10x:active {
+  letter-spacing: 10px !important;
+        }
+
+.u-on-active-letter-spacing-11x:active {
+  letter-spacing: 11px !important;
+        }
+
+.u-on-active-letter-spacing-12x:active {
+  letter-spacing: 12px !important;
+        }
+
+.u-on-active-letter-spacing-13x:active {
+  letter-spacing: 13px !important;
+        }
+
+.u-on-active-letter-spacing-14x:active {
+  letter-spacing: 14px !important;
+        }
+
+.u-on-active-letter-spacing-15x:active {
+  letter-spacing: 15px !important;
+        }
+
+.u-on-active-letter-spacing-16x:active {
+  letter-spacing: 16px !important;
+        }
+
+.u-on-active-letter-spacing-17x:active {
+  letter-spacing: 17px !important;
+        }
+
+.u-on-active-letter-spacing-18x:active {
+  letter-spacing: 18px !important;
+        }
+
+.u-on-active-letter-spacing-19x:active {
+  letter-spacing: 19px !important;
+        }
+
+.u-on-active-letter-spacing-20x:active {
+  letter-spacing: 20px !important;
+        }
+
+.u-on-active-letter-spacing-21x:active {
+  letter-spacing: 21px !important;
+        }
+
+.u-on-active-letter-spacing-22x:active {
+  letter-spacing: 22px !important;
+        }
+
+.u-on-active-letter-spacing-23x:active {
+  letter-spacing: 23px !important;
+        }
+
+.u-on-active-letter-spacing-24x:active {
+  letter-spacing: 24px !important;
+        }
+
+.u-on-active-letter-spacing-25x:active {
+  letter-spacing: 25px !important;
+        }
+
+.u-on-active-letter-spacing-26x:active {
+  letter-spacing: 26px !important;
+        }
+
+.u-on-active-letter-spacing-27x:active {
+  letter-spacing: 27px !important;
+        }
+
+.u-on-active-letter-spacing-28x:active {
+  letter-spacing: 28px !important;
+        }
+
+.u-on-active-letter-spacing-29x:active {
+  letter-spacing: 29px !important;
+        }
+
+.u-on-active-letter-spacing-30x:active {
+  letter-spacing: 30px !important;
+        }
+
+.u-on-active-letter-spacing-31x:active {
+  letter-spacing: 31px !important;
+        }
+
+.u-on-active-letter-spacing-32x:active {
+  letter-spacing: 32px !important;
+        }
+
+.u-on-active-letter-spacing-33x:active {
+  letter-spacing: 33px !important;
+        }
+
+.u-on-active-letter-spacing-34x:active {
+  letter-spacing: 34px !important;
+        }
+
+.u-on-active-letter-spacing-35x:active {
+  letter-spacing: 35px !important;
+        }
+
+.u-on-active-letter-spacing-36x:active {
+  letter-spacing: 36px !important;
+        }
+
+.u-on-active-letter-spacing-37x:active {
+  letter-spacing: 37px !important;
+        }
+
+.u-on-active-letter-spacing-38x:active {
+  letter-spacing: 38px !important;
+        }
+
+.u-on-active-letter-spacing-39x:active {
+  letter-spacing: 39px !important;
+        }
+
+.u-on-active-letter-spacing-40x:active {
+  letter-spacing: 40px !important;
+        }
+
+.u-on-active-letter-spacing-41x:active {
+  letter-spacing: 41px !important;
+        }
+
+.u-on-active-letter-spacing-42x:active {
+  letter-spacing: 42px !important;
+        }
+
+.u-on-active-letter-spacing-43x:active {
+  letter-spacing: 43px !important;
+        }
+
+.u-on-active-letter-spacing-44x:active {
+  letter-spacing: 44px !important;
+        }
+
+.u-on-active-letter-spacing-45x:active {
+  letter-spacing: 45px !important;
+        }
+
+.u-on-active-letter-spacing-46x:active {
+  letter-spacing: 46px !important;
+        }
+
+.u-on-active-letter-spacing-47x:active {
+  letter-spacing: 47px !important;
+        }
+
+.u-on-active-letter-spacing-48x:active {
+  letter-spacing: 48px !important;
+        }
+
+.u-on-active-letter-spacing-49x:active {
+  letter-spacing: 49px !important;
+        }
+
+.u-on-active-letter-spacing-50x:active {
+  letter-spacing: 50px !important;
+        }
+
+.u-on-active-letter-spacing-51x:active {
+  letter-spacing: 51px !important;
+        }
+
+.u-on-active-letter-spacing-52x:active {
+  letter-spacing: 52px !important;
+        }
+
+.u-on-active-letter-spacing-53x:active {
+  letter-spacing: 53px !important;
+        }
+
+.u-on-active-letter-spacing-54x:active {
+  letter-spacing: 54px !important;
+        }
+
+.u-on-active-letter-spacing-55x:active {
+  letter-spacing: 55px !important;
+        }
+
+.u-on-active-letter-spacing-56x:active {
+  letter-spacing: 56px !important;
+        }
+
+.u-on-active-letter-spacing-57x:active {
+  letter-spacing: 57px !important;
+        }
+
+.u-on-active-letter-spacing-58x:active {
+  letter-spacing: 58px !important;
+        }
+
+.u-on-active-letter-spacing-59x:active {
+  letter-spacing: 59px !important;
+        }
+
+.u-on-active-letter-spacing-60x:active {
+  letter-spacing: 60px !important;
+        }
+
+.u-on-active-letter-spacing-61x:active {
+  letter-spacing: 61px !important;
+        }
+
+.u-on-active-letter-spacing-62x:active {
+  letter-spacing: 62px !important;
+        }
+
+.u-on-active-letter-spacing-63x:active {
+  letter-spacing: 63px !important;
+        }
+
+.u-on-active-letter-spacing-64x:active {
+  letter-spacing: 64px !important;
+        }
+
+.u-on-active-letter-spacing-65x:active {
+  letter-spacing: 65px !important;
+        }
+
+.u-on-active-letter-spacing-66x:active {
+  letter-spacing: 66px !important;
+        }
+
+.u-on-active-letter-spacing-67x:active {
+  letter-spacing: 67px !important;
+        }
+
+.u-on-active-letter-spacing-68x:active {
+  letter-spacing: 68px !important;
+        }
+
+.u-on-active-letter-spacing-69x:active {
+  letter-spacing: 69px !important;
+        }
+
+.u-on-active-letter-spacing-70x:active {
+  letter-spacing: 70px !important;
+        }
+
+.u-on-active-letter-spacing-71x:active {
+  letter-spacing: 71px !important;
+        }
+
+.u-on-active-letter-spacing-72x:active {
+  letter-spacing: 72px !important;
+        }
+
+.u-on-active-letter-spacing-73x:active {
+  letter-spacing: 73px !important;
+        }
+
+.u-on-active-letter-spacing-74x:active {
+  letter-spacing: 74px !important;
+        }
+
+.u-on-active-letter-spacing-75x:active {
+  letter-spacing: 75px !important;
+        }
+
+.u-on-active-letter-spacing-76x:active {
+  letter-spacing: 76px !important;
+        }
+
+.u-on-active-letter-spacing-77x:active {
+  letter-spacing: 77px !important;
+        }
+
+.u-on-active-letter-spacing-78x:active {
+  letter-spacing: 78px !important;
+        }
+
+.u-on-active-letter-spacing-79x:active {
+  letter-spacing: 79px !important;
+        }
+
+.u-on-active-letter-spacing-80x:active {
+  letter-spacing: 80px !important;
+        }
+
+.u-on-active-letter-spacing-81x:active {
+  letter-spacing: 81px !important;
+        }
+
+.u-on-active-letter-spacing-82x:active {
+  letter-spacing: 82px !important;
+        }
+
+.u-on-active-letter-spacing-83x:active {
+  letter-spacing: 83px !important;
+        }
+
+.u-on-active-letter-spacing-84x:active {
+  letter-spacing: 84px !important;
+        }
+
+.u-on-active-letter-spacing-85x:active {
+  letter-spacing: 85px !important;
+        }
+
+.u-on-active-letter-spacing-86x:active {
+  letter-spacing: 86px !important;
+        }
+
+.u-on-active-letter-spacing-87x:active {
+  letter-spacing: 87px !important;
+        }
+
+.u-on-active-letter-spacing-88x:active {
+  letter-spacing: 88px !important;
+        }
+
+.u-on-active-letter-spacing-89x:active {
+  letter-spacing: 89px !important;
+        }
+
+.u-on-active-letter-spacing-90x:active {
+  letter-spacing: 90px !important;
+        }
+
+.u-on-active-letter-spacing-91x:active {
+  letter-spacing: 91px !important;
+        }
+
+.u-on-active-letter-spacing-92x:active {
+  letter-spacing: 92px !important;
+        }
+
+.u-on-active-letter-spacing-93x:active {
+  letter-spacing: 93px !important;
+        }
+
+.u-on-active-letter-spacing-94x:active {
+  letter-spacing: 94px !important;
+        }
+
+.u-on-active-letter-spacing-95x:active {
+  letter-spacing: 95px !important;
+        }
+
+.u-on-active-letter-spacing-96x:active {
+  letter-spacing: 96px !important;
+        }
+
+.u-on-active-letter-spacing-97x:active {
+  letter-spacing: 97px !important;
+        }
+
+.u-on-active-letter-spacing-98x:active {
+  letter-spacing: 98px !important;
+        }
+
+.u-on-active-letter-spacing-99x:active {
+  letter-spacing: 99px !important;
+        }
+
+.u-on-active-letter-spacing-100x:active {
+  letter-spacing: 100px !important;
+        }
+
+.u-on-focus-letter-spacing-0x:focus {
+  letter-spacing: 0px !important;
+        }
+
+.u-on-focus-letter-spacing-1x:focus {
+  letter-spacing: 1px !important;
+        }
+
+.u-on-focus-letter-spacing-2x:focus {
+  letter-spacing: 2px !important;
+        }
+
+.u-on-focus-letter-spacing-3x:focus {
+  letter-spacing: 3px !important;
+        }
+
+.u-on-focus-letter-spacing-4x:focus {
+  letter-spacing: 4px !important;
+        }
+
+.u-on-focus-letter-spacing-5x:focus {
+  letter-spacing: 5px !important;
+        }
+
+.u-on-focus-letter-spacing-6x:focus {
+  letter-spacing: 6px !important;
+        }
+
+.u-on-focus-letter-spacing-7x:focus {
+  letter-spacing: 7px !important;
+        }
+
+.u-on-focus-letter-spacing-8x:focus {
+  letter-spacing: 8px !important;
+        }
+
+.u-on-focus-letter-spacing-9x:focus {
+  letter-spacing: 9px !important;
+        }
+
+.u-on-focus-letter-spacing-10x:focus {
+  letter-spacing: 10px !important;
+        }
+
+.u-on-focus-letter-spacing-11x:focus {
+  letter-spacing: 11px !important;
+        }
+
+.u-on-focus-letter-spacing-12x:focus {
+  letter-spacing: 12px !important;
+        }
+
+.u-on-focus-letter-spacing-13x:focus {
+  letter-spacing: 13px !important;
+        }
+
+.u-on-focus-letter-spacing-14x:focus {
+  letter-spacing: 14px !important;
+        }
+
+.u-on-focus-letter-spacing-15x:focus {
+  letter-spacing: 15px !important;
+        }
+
+.u-on-focus-letter-spacing-16x:focus {
+  letter-spacing: 16px !important;
+        }
+
+.u-on-focus-letter-spacing-17x:focus {
+  letter-spacing: 17px !important;
+        }
+
+.u-on-focus-letter-spacing-18x:focus {
+  letter-spacing: 18px !important;
+        }
+
+.u-on-focus-letter-spacing-19x:focus {
+  letter-spacing: 19px !important;
+        }
+
+.u-on-focus-letter-spacing-20x:focus {
+  letter-spacing: 20px !important;
+        }
+
+.u-on-focus-letter-spacing-21x:focus {
+  letter-spacing: 21px !important;
+        }
+
+.u-on-focus-letter-spacing-22x:focus {
+  letter-spacing: 22px !important;
+        }
+
+.u-on-focus-letter-spacing-23x:focus {
+  letter-spacing: 23px !important;
+        }
+
+.u-on-focus-letter-spacing-24x:focus {
+  letter-spacing: 24px !important;
+        }
+
+.u-on-focus-letter-spacing-25x:focus {
+  letter-spacing: 25px !important;
+        }
+
+.u-on-focus-letter-spacing-26x:focus {
+  letter-spacing: 26px !important;
+        }
+
+.u-on-focus-letter-spacing-27x:focus {
+  letter-spacing: 27px !important;
+        }
+
+.u-on-focus-letter-spacing-28x:focus {
+  letter-spacing: 28px !important;
+        }
+
+.u-on-focus-letter-spacing-29x:focus {
+  letter-spacing: 29px !important;
+        }
+
+.u-on-focus-letter-spacing-30x:focus {
+  letter-spacing: 30px !important;
+        }
+
+.u-on-focus-letter-spacing-31x:focus {
+  letter-spacing: 31px !important;
+        }
+
+.u-on-focus-letter-spacing-32x:focus {
+  letter-spacing: 32px !important;
+        }
+
+.u-on-focus-letter-spacing-33x:focus {
+  letter-spacing: 33px !important;
+        }
+
+.u-on-focus-letter-spacing-34x:focus {
+  letter-spacing: 34px !important;
+        }
+
+.u-on-focus-letter-spacing-35x:focus {
+  letter-spacing: 35px !important;
+        }
+
+.u-on-focus-letter-spacing-36x:focus {
+  letter-spacing: 36px !important;
+        }
+
+.u-on-focus-letter-spacing-37x:focus {
+  letter-spacing: 37px !important;
+        }
+
+.u-on-focus-letter-spacing-38x:focus {
+  letter-spacing: 38px !important;
+        }
+
+.u-on-focus-letter-spacing-39x:focus {
+  letter-spacing: 39px !important;
+        }
+
+.u-on-focus-letter-spacing-40x:focus {
+  letter-spacing: 40px !important;
+        }
+
+.u-on-focus-letter-spacing-41x:focus {
+  letter-spacing: 41px !important;
+        }
+
+.u-on-focus-letter-spacing-42x:focus {
+  letter-spacing: 42px !important;
+        }
+
+.u-on-focus-letter-spacing-43x:focus {
+  letter-spacing: 43px !important;
+        }
+
+.u-on-focus-letter-spacing-44x:focus {
+  letter-spacing: 44px !important;
+        }
+
+.u-on-focus-letter-spacing-45x:focus {
+  letter-spacing: 45px !important;
+        }
+
+.u-on-focus-letter-spacing-46x:focus {
+  letter-spacing: 46px !important;
+        }
+
+.u-on-focus-letter-spacing-47x:focus {
+  letter-spacing: 47px !important;
+        }
+
+.u-on-focus-letter-spacing-48x:focus {
+  letter-spacing: 48px !important;
+        }
+
+.u-on-focus-letter-spacing-49x:focus {
+  letter-spacing: 49px !important;
+        }
+
+.u-on-focus-letter-spacing-50x:focus {
+  letter-spacing: 50px !important;
+        }
+
+.u-on-focus-letter-spacing-51x:focus {
+  letter-spacing: 51px !important;
+        }
+
+.u-on-focus-letter-spacing-52x:focus {
+  letter-spacing: 52px !important;
+        }
+
+.u-on-focus-letter-spacing-53x:focus {
+  letter-spacing: 53px !important;
+        }
+
+.u-on-focus-letter-spacing-54x:focus {
+  letter-spacing: 54px !important;
+        }
+
+.u-on-focus-letter-spacing-55x:focus {
+  letter-spacing: 55px !important;
+        }
+
+.u-on-focus-letter-spacing-56x:focus {
+  letter-spacing: 56px !important;
+        }
+
+.u-on-focus-letter-spacing-57x:focus {
+  letter-spacing: 57px !important;
+        }
+
+.u-on-focus-letter-spacing-58x:focus {
+  letter-spacing: 58px !important;
+        }
+
+.u-on-focus-letter-spacing-59x:focus {
+  letter-spacing: 59px !important;
+        }
+
+.u-on-focus-letter-spacing-60x:focus {
+  letter-spacing: 60px !important;
+        }
+
+.u-on-focus-letter-spacing-61x:focus {
+  letter-spacing: 61px !important;
+        }
+
+.u-on-focus-letter-spacing-62x:focus {
+  letter-spacing: 62px !important;
+        }
+
+.u-on-focus-letter-spacing-63x:focus {
+  letter-spacing: 63px !important;
+        }
+
+.u-on-focus-letter-spacing-64x:focus {
+  letter-spacing: 64px !important;
+        }
+
+.u-on-focus-letter-spacing-65x:focus {
+  letter-spacing: 65px !important;
+        }
+
+.u-on-focus-letter-spacing-66x:focus {
+  letter-spacing: 66px !important;
+        }
+
+.u-on-focus-letter-spacing-67x:focus {
+  letter-spacing: 67px !important;
+        }
+
+.u-on-focus-letter-spacing-68x:focus {
+  letter-spacing: 68px !important;
+        }
+
+.u-on-focus-letter-spacing-69x:focus {
+  letter-spacing: 69px !important;
+        }
+
+.u-on-focus-letter-spacing-70x:focus {
+  letter-spacing: 70px !important;
+        }
+
+.u-on-focus-letter-spacing-71x:focus {
+  letter-spacing: 71px !important;
+        }
+
+.u-on-focus-letter-spacing-72x:focus {
+  letter-spacing: 72px !important;
+        }
+
+.u-on-focus-letter-spacing-73x:focus {
+  letter-spacing: 73px !important;
+        }
+
+.u-on-focus-letter-spacing-74x:focus {
+  letter-spacing: 74px !important;
+        }
+
+.u-on-focus-letter-spacing-75x:focus {
+  letter-spacing: 75px !important;
+        }
+
+.u-on-focus-letter-spacing-76x:focus {
+  letter-spacing: 76px !important;
+        }
+
+.u-on-focus-letter-spacing-77x:focus {
+  letter-spacing: 77px !important;
+        }
+
+.u-on-focus-letter-spacing-78x:focus {
+  letter-spacing: 78px !important;
+        }
+
+.u-on-focus-letter-spacing-79x:focus {
+  letter-spacing: 79px !important;
+        }
+
+.u-on-focus-letter-spacing-80x:focus {
+  letter-spacing: 80px !important;
+        }
+
+.u-on-focus-letter-spacing-81x:focus {
+  letter-spacing: 81px !important;
+        }
+
+.u-on-focus-letter-spacing-82x:focus {
+  letter-spacing: 82px !important;
+        }
+
+.u-on-focus-letter-spacing-83x:focus {
+  letter-spacing: 83px !important;
+        }
+
+.u-on-focus-letter-spacing-84x:focus {
+  letter-spacing: 84px !important;
+        }
+
+.u-on-focus-letter-spacing-85x:focus {
+  letter-spacing: 85px !important;
+        }
+
+.u-on-focus-letter-spacing-86x:focus {
+  letter-spacing: 86px !important;
+        }
+
+.u-on-focus-letter-spacing-87x:focus {
+  letter-spacing: 87px !important;
+        }
+
+.u-on-focus-letter-spacing-88x:focus {
+  letter-spacing: 88px !important;
+        }
+
+.u-on-focus-letter-spacing-89x:focus {
+  letter-spacing: 89px !important;
+        }
+
+.u-on-focus-letter-spacing-90x:focus {
+  letter-spacing: 90px !important;
+        }
+
+.u-on-focus-letter-spacing-91x:focus {
+  letter-spacing: 91px !important;
+        }
+
+.u-on-focus-letter-spacing-92x:focus {
+  letter-spacing: 92px !important;
+        }
+
+.u-on-focus-letter-spacing-93x:focus {
+  letter-spacing: 93px !important;
+        }
+
+.u-on-focus-letter-spacing-94x:focus {
+  letter-spacing: 94px !important;
+        }
+
+.u-on-focus-letter-spacing-95x:focus {
+  letter-spacing: 95px !important;
+        }
+
+.u-on-focus-letter-spacing-96x:focus {
+  letter-spacing: 96px !important;
+        }
+
+.u-on-focus-letter-spacing-97x:focus {
+  letter-spacing: 97px !important;
+        }
+
+.u-on-focus-letter-spacing-98x:focus {
+  letter-spacing: 98px !important;
+        }
+
+.u-on-focus-letter-spacing-99x:focus {
+  letter-spacing: 99px !important;
+        }
+
+.u-on-focus-letter-spacing-100x:focus {
+  letter-spacing: 100px !important;
+        }
+
+.u-on-disabled-letter-spacing-0x:disabled {
+  letter-spacing: 0px !important;
+        }
+
+.u-on-disabled-letter-spacing-1x:disabled {
+  letter-spacing: 1px !important;
+        }
+
+.u-on-disabled-letter-spacing-2x:disabled {
+  letter-spacing: 2px !important;
+        }
+
+.u-on-disabled-letter-spacing-3x:disabled {
+  letter-spacing: 3px !important;
+        }
+
+.u-on-disabled-letter-spacing-4x:disabled {
+  letter-spacing: 4px !important;
+        }
+
+.u-on-disabled-letter-spacing-5x:disabled {
+  letter-spacing: 5px !important;
+        }
+
+.u-on-disabled-letter-spacing-6x:disabled {
+  letter-spacing: 6px !important;
+        }
+
+.u-on-disabled-letter-spacing-7x:disabled {
+  letter-spacing: 7px !important;
+        }
+
+.u-on-disabled-letter-spacing-8x:disabled {
+  letter-spacing: 8px !important;
+        }
+
+.u-on-disabled-letter-spacing-9x:disabled {
+  letter-spacing: 9px !important;
+        }
+
+.u-on-disabled-letter-spacing-10x:disabled {
+  letter-spacing: 10px !important;
+        }
+
+.u-on-disabled-letter-spacing-11x:disabled {
+  letter-spacing: 11px !important;
+        }
+
+.u-on-disabled-letter-spacing-12x:disabled {
+  letter-spacing: 12px !important;
+        }
+
+.u-on-disabled-letter-spacing-13x:disabled {
+  letter-spacing: 13px !important;
+        }
+
+.u-on-disabled-letter-spacing-14x:disabled {
+  letter-spacing: 14px !important;
+        }
+
+.u-on-disabled-letter-spacing-15x:disabled {
+  letter-spacing: 15px !important;
+        }
+
+.u-on-disabled-letter-spacing-16x:disabled {
+  letter-spacing: 16px !important;
+        }
+
+.u-on-disabled-letter-spacing-17x:disabled {
+  letter-spacing: 17px !important;
+        }
+
+.u-on-disabled-letter-spacing-18x:disabled {
+  letter-spacing: 18px !important;
+        }
+
+.u-on-disabled-letter-spacing-19x:disabled {
+  letter-spacing: 19px !important;
+        }
+
+.u-on-disabled-letter-spacing-20x:disabled {
+  letter-spacing: 20px !important;
+        }
+
+.u-on-disabled-letter-spacing-21x:disabled {
+  letter-spacing: 21px !important;
+        }
+
+.u-on-disabled-letter-spacing-22x:disabled {
+  letter-spacing: 22px !important;
+        }
+
+.u-on-disabled-letter-spacing-23x:disabled {
+  letter-spacing: 23px !important;
+        }
+
+.u-on-disabled-letter-spacing-24x:disabled {
+  letter-spacing: 24px !important;
+        }
+
+.u-on-disabled-letter-spacing-25x:disabled {
+  letter-spacing: 25px !important;
+        }
+
+.u-on-disabled-letter-spacing-26x:disabled {
+  letter-spacing: 26px !important;
+        }
+
+.u-on-disabled-letter-spacing-27x:disabled {
+  letter-spacing: 27px !important;
+        }
+
+.u-on-disabled-letter-spacing-28x:disabled {
+  letter-spacing: 28px !important;
+        }
+
+.u-on-disabled-letter-spacing-29x:disabled {
+  letter-spacing: 29px !important;
+        }
+
+.u-on-disabled-letter-spacing-30x:disabled {
+  letter-spacing: 30px !important;
+        }
+
+.u-on-disabled-letter-spacing-31x:disabled {
+  letter-spacing: 31px !important;
+        }
+
+.u-on-disabled-letter-spacing-32x:disabled {
+  letter-spacing: 32px !important;
+        }
+
+.u-on-disabled-letter-spacing-33x:disabled {
+  letter-spacing: 33px !important;
+        }
+
+.u-on-disabled-letter-spacing-34x:disabled {
+  letter-spacing: 34px !important;
+        }
+
+.u-on-disabled-letter-spacing-35x:disabled {
+  letter-spacing: 35px !important;
+        }
+
+.u-on-disabled-letter-spacing-36x:disabled {
+  letter-spacing: 36px !important;
+        }
+
+.u-on-disabled-letter-spacing-37x:disabled {
+  letter-spacing: 37px !important;
+        }
+
+.u-on-disabled-letter-spacing-38x:disabled {
+  letter-spacing: 38px !important;
+        }
+
+.u-on-disabled-letter-spacing-39x:disabled {
+  letter-spacing: 39px !important;
+        }
+
+.u-on-disabled-letter-spacing-40x:disabled {
+  letter-spacing: 40px !important;
+        }
+
+.u-on-disabled-letter-spacing-41x:disabled {
+  letter-spacing: 41px !important;
+        }
+
+.u-on-disabled-letter-spacing-42x:disabled {
+  letter-spacing: 42px !important;
+        }
+
+.u-on-disabled-letter-spacing-43x:disabled {
+  letter-spacing: 43px !important;
+        }
+
+.u-on-disabled-letter-spacing-44x:disabled {
+  letter-spacing: 44px !important;
+        }
+
+.u-on-disabled-letter-spacing-45x:disabled {
+  letter-spacing: 45px !important;
+        }
+
+.u-on-disabled-letter-spacing-46x:disabled {
+  letter-spacing: 46px !important;
+        }
+
+.u-on-disabled-letter-spacing-47x:disabled {
+  letter-spacing: 47px !important;
+        }
+
+.u-on-disabled-letter-spacing-48x:disabled {
+  letter-spacing: 48px !important;
+        }
+
+.u-on-disabled-letter-spacing-49x:disabled {
+  letter-spacing: 49px !important;
+        }
+
+.u-on-disabled-letter-spacing-50x:disabled {
+  letter-spacing: 50px !important;
+        }
+
+.u-on-disabled-letter-spacing-51x:disabled {
+  letter-spacing: 51px !important;
+        }
+
+.u-on-disabled-letter-spacing-52x:disabled {
+  letter-spacing: 52px !important;
+        }
+
+.u-on-disabled-letter-spacing-53x:disabled {
+  letter-spacing: 53px !important;
+        }
+
+.u-on-disabled-letter-spacing-54x:disabled {
+  letter-spacing: 54px !important;
+        }
+
+.u-on-disabled-letter-spacing-55x:disabled {
+  letter-spacing: 55px !important;
+        }
+
+.u-on-disabled-letter-spacing-56x:disabled {
+  letter-spacing: 56px !important;
+        }
+
+.u-on-disabled-letter-spacing-57x:disabled {
+  letter-spacing: 57px !important;
+        }
+
+.u-on-disabled-letter-spacing-58x:disabled {
+  letter-spacing: 58px !important;
+        }
+
+.u-on-disabled-letter-spacing-59x:disabled {
+  letter-spacing: 59px !important;
+        }
+
+.u-on-disabled-letter-spacing-60x:disabled {
+  letter-spacing: 60px !important;
+        }
+
+.u-on-disabled-letter-spacing-61x:disabled {
+  letter-spacing: 61px !important;
+        }
+
+.u-on-disabled-letter-spacing-62x:disabled {
+  letter-spacing: 62px !important;
+        }
+
+.u-on-disabled-letter-spacing-63x:disabled {
+  letter-spacing: 63px !important;
+        }
+
+.u-on-disabled-letter-spacing-64x:disabled {
+  letter-spacing: 64px !important;
+        }
+
+.u-on-disabled-letter-spacing-65x:disabled {
+  letter-spacing: 65px !important;
+        }
+
+.u-on-disabled-letter-spacing-66x:disabled {
+  letter-spacing: 66px !important;
+        }
+
+.u-on-disabled-letter-spacing-67x:disabled {
+  letter-spacing: 67px !important;
+        }
+
+.u-on-disabled-letter-spacing-68x:disabled {
+  letter-spacing: 68px !important;
+        }
+
+.u-on-disabled-letter-spacing-69x:disabled {
+  letter-spacing: 69px !important;
+        }
+
+.u-on-disabled-letter-spacing-70x:disabled {
+  letter-spacing: 70px !important;
+        }
+
+.u-on-disabled-letter-spacing-71x:disabled {
+  letter-spacing: 71px !important;
+        }
+
+.u-on-disabled-letter-spacing-72x:disabled {
+  letter-spacing: 72px !important;
+        }
+
+.u-on-disabled-letter-spacing-73x:disabled {
+  letter-spacing: 73px !important;
+        }
+
+.u-on-disabled-letter-spacing-74x:disabled {
+  letter-spacing: 74px !important;
+        }
+
+.u-on-disabled-letter-spacing-75x:disabled {
+  letter-spacing: 75px !important;
+        }
+
+.u-on-disabled-letter-spacing-76x:disabled {
+  letter-spacing: 76px !important;
+        }
+
+.u-on-disabled-letter-spacing-77x:disabled {
+  letter-spacing: 77px !important;
+        }
+
+.u-on-disabled-letter-spacing-78x:disabled {
+  letter-spacing: 78px !important;
+        }
+
+.u-on-disabled-letter-spacing-79x:disabled {
+  letter-spacing: 79px !important;
+        }
+
+.u-on-disabled-letter-spacing-80x:disabled {
+  letter-spacing: 80px !important;
+        }
+
+.u-on-disabled-letter-spacing-81x:disabled {
+  letter-spacing: 81px !important;
+        }
+
+.u-on-disabled-letter-spacing-82x:disabled {
+  letter-spacing: 82px !important;
+        }
+
+.u-on-disabled-letter-spacing-83x:disabled {
+  letter-spacing: 83px !important;
+        }
+
+.u-on-disabled-letter-spacing-84x:disabled {
+  letter-spacing: 84px !important;
+        }
+
+.u-on-disabled-letter-spacing-85x:disabled {
+  letter-spacing: 85px !important;
+        }
+
+.u-on-disabled-letter-spacing-86x:disabled {
+  letter-spacing: 86px !important;
+        }
+
+.u-on-disabled-letter-spacing-87x:disabled {
+  letter-spacing: 87px !important;
+        }
+
+.u-on-disabled-letter-spacing-88x:disabled {
+  letter-spacing: 88px !important;
+        }
+
+.u-on-disabled-letter-spacing-89x:disabled {
+  letter-spacing: 89px !important;
+        }
+
+.u-on-disabled-letter-spacing-90x:disabled {
+  letter-spacing: 90px !important;
+        }
+
+.u-on-disabled-letter-spacing-91x:disabled {
+  letter-spacing: 91px !important;
+        }
+
+.u-on-disabled-letter-spacing-92x:disabled {
+  letter-spacing: 92px !important;
+        }
+
+.u-on-disabled-letter-spacing-93x:disabled {
+  letter-spacing: 93px !important;
+        }
+
+.u-on-disabled-letter-spacing-94x:disabled {
+  letter-spacing: 94px !important;
+        }
+
+.u-on-disabled-letter-spacing-95x:disabled {
+  letter-spacing: 95px !important;
+        }
+
+.u-on-disabled-letter-spacing-96x:disabled {
+  letter-spacing: 96px !important;
+        }
+
+.u-on-disabled-letter-spacing-97x:disabled {
+  letter-spacing: 97px !important;
+        }
+
+.u-on-disabled-letter-spacing-98x:disabled {
+  letter-spacing: 98px !important;
+        }
+
+.u-on-disabled-letter-spacing-99x:disabled {
+  letter-spacing: 99px !important;
+        }
+
+.u-on-disabled-letter-spacing-100x:disabled {
+  letter-spacing: 100px !important;
+        }
+
+.u-on-visited-letter-spacing-0x:visited {
+  letter-spacing: 0px !important;
+        }
+
+.u-on-visited-letter-spacing-1x:visited {
+  letter-spacing: 1px !important;
+        }
+
+.u-on-visited-letter-spacing-2x:visited {
+  letter-spacing: 2px !important;
+        }
+
+.u-on-visited-letter-spacing-3x:visited {
+  letter-spacing: 3px !important;
+        }
+
+.u-on-visited-letter-spacing-4x:visited {
+  letter-spacing: 4px !important;
+        }
+
+.u-on-visited-letter-spacing-5x:visited {
+  letter-spacing: 5px !important;
+        }
+
+.u-on-visited-letter-spacing-6x:visited {
+  letter-spacing: 6px !important;
+        }
+
+.u-on-visited-letter-spacing-7x:visited {
+  letter-spacing: 7px !important;
+        }
+
+.u-on-visited-letter-spacing-8x:visited {
+  letter-spacing: 8px !important;
+        }
+
+.u-on-visited-letter-spacing-9x:visited {
+  letter-spacing: 9px !important;
+        }
+
+.u-on-visited-letter-spacing-10x:visited {
+  letter-spacing: 10px !important;
+        }
+
+.u-on-visited-letter-spacing-11x:visited {
+  letter-spacing: 11px !important;
+        }
+
+.u-on-visited-letter-spacing-12x:visited {
+  letter-spacing: 12px !important;
+        }
+
+.u-on-visited-letter-spacing-13x:visited {
+  letter-spacing: 13px !important;
+        }
+
+.u-on-visited-letter-spacing-14x:visited {
+  letter-spacing: 14px !important;
+        }
+
+.u-on-visited-letter-spacing-15x:visited {
+  letter-spacing: 15px !important;
+        }
+
+.u-on-visited-letter-spacing-16x:visited {
+  letter-spacing: 16px !important;
+        }
+
+.u-on-visited-letter-spacing-17x:visited {
+  letter-spacing: 17px !important;
+        }
+
+.u-on-visited-letter-spacing-18x:visited {
+  letter-spacing: 18px !important;
+        }
+
+.u-on-visited-letter-spacing-19x:visited {
+  letter-spacing: 19px !important;
+        }
+
+.u-on-visited-letter-spacing-20x:visited {
+  letter-spacing: 20px !important;
+        }
+
+.u-on-visited-letter-spacing-21x:visited {
+  letter-spacing: 21px !important;
+        }
+
+.u-on-visited-letter-spacing-22x:visited {
+  letter-spacing: 22px !important;
+        }
+
+.u-on-visited-letter-spacing-23x:visited {
+  letter-spacing: 23px !important;
+        }
+
+.u-on-visited-letter-spacing-24x:visited {
+  letter-spacing: 24px !important;
+        }
+
+.u-on-visited-letter-spacing-25x:visited {
+  letter-spacing: 25px !important;
+        }
+
+.u-on-visited-letter-spacing-26x:visited {
+  letter-spacing: 26px !important;
+        }
+
+.u-on-visited-letter-spacing-27x:visited {
+  letter-spacing: 27px !important;
+        }
+
+.u-on-visited-letter-spacing-28x:visited {
+  letter-spacing: 28px !important;
+        }
+
+.u-on-visited-letter-spacing-29x:visited {
+  letter-spacing: 29px !important;
+        }
+
+.u-on-visited-letter-spacing-30x:visited {
+  letter-spacing: 30px !important;
+        }
+
+.u-on-visited-letter-spacing-31x:visited {
+  letter-spacing: 31px !important;
+        }
+
+.u-on-visited-letter-spacing-32x:visited {
+  letter-spacing: 32px !important;
+        }
+
+.u-on-visited-letter-spacing-33x:visited {
+  letter-spacing: 33px !important;
+        }
+
+.u-on-visited-letter-spacing-34x:visited {
+  letter-spacing: 34px !important;
+        }
+
+.u-on-visited-letter-spacing-35x:visited {
+  letter-spacing: 35px !important;
+        }
+
+.u-on-visited-letter-spacing-36x:visited {
+  letter-spacing: 36px !important;
+        }
+
+.u-on-visited-letter-spacing-37x:visited {
+  letter-spacing: 37px !important;
+        }
+
+.u-on-visited-letter-spacing-38x:visited {
+  letter-spacing: 38px !important;
+        }
+
+.u-on-visited-letter-spacing-39x:visited {
+  letter-spacing: 39px !important;
+        }
+
+.u-on-visited-letter-spacing-40x:visited {
+  letter-spacing: 40px !important;
+        }
+
+.u-on-visited-letter-spacing-41x:visited {
+  letter-spacing: 41px !important;
+        }
+
+.u-on-visited-letter-spacing-42x:visited {
+  letter-spacing: 42px !important;
+        }
+
+.u-on-visited-letter-spacing-43x:visited {
+  letter-spacing: 43px !important;
+        }
+
+.u-on-visited-letter-spacing-44x:visited {
+  letter-spacing: 44px !important;
+        }
+
+.u-on-visited-letter-spacing-45x:visited {
+  letter-spacing: 45px !important;
+        }
+
+.u-on-visited-letter-spacing-46x:visited {
+  letter-spacing: 46px !important;
+        }
+
+.u-on-visited-letter-spacing-47x:visited {
+  letter-spacing: 47px !important;
+        }
+
+.u-on-visited-letter-spacing-48x:visited {
+  letter-spacing: 48px !important;
+        }
+
+.u-on-visited-letter-spacing-49x:visited {
+  letter-spacing: 49px !important;
+        }
+
+.u-on-visited-letter-spacing-50x:visited {
+  letter-spacing: 50px !important;
+        }
+
+.u-on-visited-letter-spacing-51x:visited {
+  letter-spacing: 51px !important;
+        }
+
+.u-on-visited-letter-spacing-52x:visited {
+  letter-spacing: 52px !important;
+        }
+
+.u-on-visited-letter-spacing-53x:visited {
+  letter-spacing: 53px !important;
+        }
+
+.u-on-visited-letter-spacing-54x:visited {
+  letter-spacing: 54px !important;
+        }
+
+.u-on-visited-letter-spacing-55x:visited {
+  letter-spacing: 55px !important;
+        }
+
+.u-on-visited-letter-spacing-56x:visited {
+  letter-spacing: 56px !important;
+        }
+
+.u-on-visited-letter-spacing-57x:visited {
+  letter-spacing: 57px !important;
+        }
+
+.u-on-visited-letter-spacing-58x:visited {
+  letter-spacing: 58px !important;
+        }
+
+.u-on-visited-letter-spacing-59x:visited {
+  letter-spacing: 59px !important;
+        }
+
+.u-on-visited-letter-spacing-60x:visited {
+  letter-spacing: 60px !important;
+        }
+
+.u-on-visited-letter-spacing-61x:visited {
+  letter-spacing: 61px !important;
+        }
+
+.u-on-visited-letter-spacing-62x:visited {
+  letter-spacing: 62px !important;
+        }
+
+.u-on-visited-letter-spacing-63x:visited {
+  letter-spacing: 63px !important;
+        }
+
+.u-on-visited-letter-spacing-64x:visited {
+  letter-spacing: 64px !important;
+        }
+
+.u-on-visited-letter-spacing-65x:visited {
+  letter-spacing: 65px !important;
+        }
+
+.u-on-visited-letter-spacing-66x:visited {
+  letter-spacing: 66px !important;
+        }
+
+.u-on-visited-letter-spacing-67x:visited {
+  letter-spacing: 67px !important;
+        }
+
+.u-on-visited-letter-spacing-68x:visited {
+  letter-spacing: 68px !important;
+        }
+
+.u-on-visited-letter-spacing-69x:visited {
+  letter-spacing: 69px !important;
+        }
+
+.u-on-visited-letter-spacing-70x:visited {
+  letter-spacing: 70px !important;
+        }
+
+.u-on-visited-letter-spacing-71x:visited {
+  letter-spacing: 71px !important;
+        }
+
+.u-on-visited-letter-spacing-72x:visited {
+  letter-spacing: 72px !important;
+        }
+
+.u-on-visited-letter-spacing-73x:visited {
+  letter-spacing: 73px !important;
+        }
+
+.u-on-visited-letter-spacing-74x:visited {
+  letter-spacing: 74px !important;
+        }
+
+.u-on-visited-letter-spacing-75x:visited {
+  letter-spacing: 75px !important;
+        }
+
+.u-on-visited-letter-spacing-76x:visited {
+  letter-spacing: 76px !important;
+        }
+
+.u-on-visited-letter-spacing-77x:visited {
+  letter-spacing: 77px !important;
+        }
+
+.u-on-visited-letter-spacing-78x:visited {
+  letter-spacing: 78px !important;
+        }
+
+.u-on-visited-letter-spacing-79x:visited {
+  letter-spacing: 79px !important;
+        }
+
+.u-on-visited-letter-spacing-80x:visited {
+  letter-spacing: 80px !important;
+        }
+
+.u-on-visited-letter-spacing-81x:visited {
+  letter-spacing: 81px !important;
+        }
+
+.u-on-visited-letter-spacing-82x:visited {
+  letter-spacing: 82px !important;
+        }
+
+.u-on-visited-letter-spacing-83x:visited {
+  letter-spacing: 83px !important;
+        }
+
+.u-on-visited-letter-spacing-84x:visited {
+  letter-spacing: 84px !important;
+        }
+
+.u-on-visited-letter-spacing-85x:visited {
+  letter-spacing: 85px !important;
+        }
+
+.u-on-visited-letter-spacing-86x:visited {
+  letter-spacing: 86px !important;
+        }
+
+.u-on-visited-letter-spacing-87x:visited {
+  letter-spacing: 87px !important;
+        }
+
+.u-on-visited-letter-spacing-88x:visited {
+  letter-spacing: 88px !important;
+        }
+
+.u-on-visited-letter-spacing-89x:visited {
+  letter-spacing: 89px !important;
+        }
+
+.u-on-visited-letter-spacing-90x:visited {
+  letter-spacing: 90px !important;
+        }
+
+.u-on-visited-letter-spacing-91x:visited {
+  letter-spacing: 91px !important;
+        }
+
+.u-on-visited-letter-spacing-92x:visited {
+  letter-spacing: 92px !important;
+        }
+
+.u-on-visited-letter-spacing-93x:visited {
+  letter-spacing: 93px !important;
+        }
+
+.u-on-visited-letter-spacing-94x:visited {
+  letter-spacing: 94px !important;
+        }
+
+.u-on-visited-letter-spacing-95x:visited {
+  letter-spacing: 95px !important;
+        }
+
+.u-on-visited-letter-spacing-96x:visited {
+  letter-spacing: 96px !important;
+        }
+
+.u-on-visited-letter-spacing-97x:visited {
+  letter-spacing: 97px !important;
+        }
+
+.u-on-visited-letter-spacing-98x:visited {
+  letter-spacing: 98px !important;
+        }
+
+.u-on-visited-letter-spacing-99x:visited {
+  letter-spacing: 99px !important;
+        }
+
+.u-on-visited-letter-spacing-100x:visited {
+  letter-spacing: 100px !important;
+        }
+
+.u-on-hover-letter-spacing-0x:hover {
+  letter-spacing: 0px !important;
+        }
+
+.u-on-hover-letter-spacing-1x:hover {
+  letter-spacing: 1px !important;
+        }
+
+.u-on-hover-letter-spacing-2x:hover {
+  letter-spacing: 2px !important;
+        }
+
+.u-on-hover-letter-spacing-3x:hover {
+  letter-spacing: 3px !important;
+        }
+
+.u-on-hover-letter-spacing-4x:hover {
+  letter-spacing: 4px !important;
+        }
+
+.u-on-hover-letter-spacing-5x:hover {
+  letter-spacing: 5px !important;
+        }
+
+.u-on-hover-letter-spacing-6x:hover {
+  letter-spacing: 6px !important;
+        }
+
+.u-on-hover-letter-spacing-7x:hover {
+  letter-spacing: 7px !important;
+        }
+
+.u-on-hover-letter-spacing-8x:hover {
+  letter-spacing: 8px !important;
+        }
+
+.u-on-hover-letter-spacing-9x:hover {
+  letter-spacing: 9px !important;
+        }
+
+.u-on-hover-letter-spacing-10x:hover {
+  letter-spacing: 10px !important;
+        }
+
+.u-on-hover-letter-spacing-11x:hover {
+  letter-spacing: 11px !important;
+        }
+
+.u-on-hover-letter-spacing-12x:hover {
+  letter-spacing: 12px !important;
+        }
+
+.u-on-hover-letter-spacing-13x:hover {
+  letter-spacing: 13px !important;
+        }
+
+.u-on-hover-letter-spacing-14x:hover {
+  letter-spacing: 14px !important;
+        }
+
+.u-on-hover-letter-spacing-15x:hover {
+  letter-spacing: 15px !important;
+        }
+
+.u-on-hover-letter-spacing-16x:hover {
+  letter-spacing: 16px !important;
+        }
+
+.u-on-hover-letter-spacing-17x:hover {
+  letter-spacing: 17px !important;
+        }
+
+.u-on-hover-letter-spacing-18x:hover {
+  letter-spacing: 18px !important;
+        }
+
+.u-on-hover-letter-spacing-19x:hover {
+  letter-spacing: 19px !important;
+        }
+
+.u-on-hover-letter-spacing-20x:hover {
+  letter-spacing: 20px !important;
+        }
+
+.u-on-hover-letter-spacing-21x:hover {
+  letter-spacing: 21px !important;
+        }
+
+.u-on-hover-letter-spacing-22x:hover {
+  letter-spacing: 22px !important;
+        }
+
+.u-on-hover-letter-spacing-23x:hover {
+  letter-spacing: 23px !important;
+        }
+
+.u-on-hover-letter-spacing-24x:hover {
+  letter-spacing: 24px !important;
+        }
+
+.u-on-hover-letter-spacing-25x:hover {
+  letter-spacing: 25px !important;
+        }
+
+.u-on-hover-letter-spacing-26x:hover {
+  letter-spacing: 26px !important;
+        }
+
+.u-on-hover-letter-spacing-27x:hover {
+  letter-spacing: 27px !important;
+        }
+
+.u-on-hover-letter-spacing-28x:hover {
+  letter-spacing: 28px !important;
+        }
+
+.u-on-hover-letter-spacing-29x:hover {
+  letter-spacing: 29px !important;
+        }
+
+.u-on-hover-letter-spacing-30x:hover {
+  letter-spacing: 30px !important;
+        }
+
+.u-on-hover-letter-spacing-31x:hover {
+  letter-spacing: 31px !important;
+        }
+
+.u-on-hover-letter-spacing-32x:hover {
+  letter-spacing: 32px !important;
+        }
+
+.u-on-hover-letter-spacing-33x:hover {
+  letter-spacing: 33px !important;
+        }
+
+.u-on-hover-letter-spacing-34x:hover {
+  letter-spacing: 34px !important;
+        }
+
+.u-on-hover-letter-spacing-35x:hover {
+  letter-spacing: 35px !important;
+        }
+
+.u-on-hover-letter-spacing-36x:hover {
+  letter-spacing: 36px !important;
+        }
+
+.u-on-hover-letter-spacing-37x:hover {
+  letter-spacing: 37px !important;
+        }
+
+.u-on-hover-letter-spacing-38x:hover {
+  letter-spacing: 38px !important;
+        }
+
+.u-on-hover-letter-spacing-39x:hover {
+  letter-spacing: 39px !important;
+        }
+
+.u-on-hover-letter-spacing-40x:hover {
+  letter-spacing: 40px !important;
+        }
+
+.u-on-hover-letter-spacing-41x:hover {
+  letter-spacing: 41px !important;
+        }
+
+.u-on-hover-letter-spacing-42x:hover {
+  letter-spacing: 42px !important;
+        }
+
+.u-on-hover-letter-spacing-43x:hover {
+  letter-spacing: 43px !important;
+        }
+
+.u-on-hover-letter-spacing-44x:hover {
+  letter-spacing: 44px !important;
+        }
+
+.u-on-hover-letter-spacing-45x:hover {
+  letter-spacing: 45px !important;
+        }
+
+.u-on-hover-letter-spacing-46x:hover {
+  letter-spacing: 46px !important;
+        }
+
+.u-on-hover-letter-spacing-47x:hover {
+  letter-spacing: 47px !important;
+        }
+
+.u-on-hover-letter-spacing-48x:hover {
+  letter-spacing: 48px !important;
+        }
+
+.u-on-hover-letter-spacing-49x:hover {
+  letter-spacing: 49px !important;
+        }
+
+.u-on-hover-letter-spacing-50x:hover {
+  letter-spacing: 50px !important;
+        }
+
+.u-on-hover-letter-spacing-51x:hover {
+  letter-spacing: 51px !important;
+        }
+
+.u-on-hover-letter-spacing-52x:hover {
+  letter-spacing: 52px !important;
+        }
+
+.u-on-hover-letter-spacing-53x:hover {
+  letter-spacing: 53px !important;
+        }
+
+.u-on-hover-letter-spacing-54x:hover {
+  letter-spacing: 54px !important;
+        }
+
+.u-on-hover-letter-spacing-55x:hover {
+  letter-spacing: 55px !important;
+        }
+
+.u-on-hover-letter-spacing-56x:hover {
+  letter-spacing: 56px !important;
+        }
+
+.u-on-hover-letter-spacing-57x:hover {
+  letter-spacing: 57px !important;
+        }
+
+.u-on-hover-letter-spacing-58x:hover {
+  letter-spacing: 58px !important;
+        }
+
+.u-on-hover-letter-spacing-59x:hover {
+  letter-spacing: 59px !important;
+        }
+
+.u-on-hover-letter-spacing-60x:hover {
+  letter-spacing: 60px !important;
+        }
+
+.u-on-hover-letter-spacing-61x:hover {
+  letter-spacing: 61px !important;
+        }
+
+.u-on-hover-letter-spacing-62x:hover {
+  letter-spacing: 62px !important;
+        }
+
+.u-on-hover-letter-spacing-63x:hover {
+  letter-spacing: 63px !important;
+        }
+
+.u-on-hover-letter-spacing-64x:hover {
+  letter-spacing: 64px !important;
+        }
+
+.u-on-hover-letter-spacing-65x:hover {
+  letter-spacing: 65px !important;
+        }
+
+.u-on-hover-letter-spacing-66x:hover {
+  letter-spacing: 66px !important;
+        }
+
+.u-on-hover-letter-spacing-67x:hover {
+  letter-spacing: 67px !important;
+        }
+
+.u-on-hover-letter-spacing-68x:hover {
+  letter-spacing: 68px !important;
+        }
+
+.u-on-hover-letter-spacing-69x:hover {
+  letter-spacing: 69px !important;
+        }
+
+.u-on-hover-letter-spacing-70x:hover {
+  letter-spacing: 70px !important;
+        }
+
+.u-on-hover-letter-spacing-71x:hover {
+  letter-spacing: 71px !important;
+        }
+
+.u-on-hover-letter-spacing-72x:hover {
+  letter-spacing: 72px !important;
+        }
+
+.u-on-hover-letter-spacing-73x:hover {
+  letter-spacing: 73px !important;
+        }
+
+.u-on-hover-letter-spacing-74x:hover {
+  letter-spacing: 74px !important;
+        }
+
+.u-on-hover-letter-spacing-75x:hover {
+  letter-spacing: 75px !important;
+        }
+
+.u-on-hover-letter-spacing-76x:hover {
+  letter-spacing: 76px !important;
+        }
+
+.u-on-hover-letter-spacing-77x:hover {
+  letter-spacing: 77px !important;
+        }
+
+.u-on-hover-letter-spacing-78x:hover {
+  letter-spacing: 78px !important;
+        }
+
+.u-on-hover-letter-spacing-79x:hover {
+  letter-spacing: 79px !important;
+        }
+
+.u-on-hover-letter-spacing-80x:hover {
+  letter-spacing: 80px !important;
+        }
+
+.u-on-hover-letter-spacing-81x:hover {
+  letter-spacing: 81px !important;
+        }
+
+.u-on-hover-letter-spacing-82x:hover {
+  letter-spacing: 82px !important;
+        }
+
+.u-on-hover-letter-spacing-83x:hover {
+  letter-spacing: 83px !important;
+        }
+
+.u-on-hover-letter-spacing-84x:hover {
+  letter-spacing: 84px !important;
+        }
+
+.u-on-hover-letter-spacing-85x:hover {
+  letter-spacing: 85px !important;
+        }
+
+.u-on-hover-letter-spacing-86x:hover {
+  letter-spacing: 86px !important;
+        }
+
+.u-on-hover-letter-spacing-87x:hover {
+  letter-spacing: 87px !important;
+        }
+
+.u-on-hover-letter-spacing-88x:hover {
+  letter-spacing: 88px !important;
+        }
+
+.u-on-hover-letter-spacing-89x:hover {
+  letter-spacing: 89px !important;
+        }
+
+.u-on-hover-letter-spacing-90x:hover {
+  letter-spacing: 90px !important;
+        }
+
+.u-on-hover-letter-spacing-91x:hover {
+  letter-spacing: 91px !important;
+        }
+
+.u-on-hover-letter-spacing-92x:hover {
+  letter-spacing: 92px !important;
+        }
+
+.u-on-hover-letter-spacing-93x:hover {
+  letter-spacing: 93px !important;
+        }
+
+.u-on-hover-letter-spacing-94x:hover {
+  letter-spacing: 94px !important;
+        }
+
+.u-on-hover-letter-spacing-95x:hover {
+  letter-spacing: 95px !important;
+        }
+
+.u-on-hover-letter-spacing-96x:hover {
+  letter-spacing: 96px !important;
+        }
+
+.u-on-hover-letter-spacing-97x:hover {
+  letter-spacing: 97px !important;
+        }
+
+.u-on-hover-letter-spacing-98x:hover {
+  letter-spacing: 98px !important;
+        }
+
+.u-on-hover-letter-spacing-99x:hover {
+  letter-spacing: 99px !important;
+        }
+
+.u-on-hover-letter-spacing-100x:hover {
+  letter-spacing: 100px !important;
+        }

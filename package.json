@@ -1,0 +1,44 @@
+{
+  "name": "@superflycss/utilities-effects",
+  "version": "2.1.3",
+  "description": "Effects utilities",
+  "main": "index.css",
+  "scripts": {
+    "update": "ncu -u && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/utilities-effects.git"
+  },
+  "keywords": [
+    "css",
+    "effects",
+    "blurs",
+    "filters",
+    "shadows",
+    "superflycss",
+    "events",
+    "brightness",
+    "grayscale",
+    "contrast",
+    "drop-shadow",
+    "sepia",
+    "opacity",
+    "invert",
+    "hue-rotate",
+    "saturate",
+    "box shadows"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superflycss/utilities-effects/issues"
+  },
+  "homepage": "https://github.com/superflycss/utilities-effects#readme",
+  "devDependencies": {
+    "npm-check-updates": "^3.1.9"
+  },
+  "dependencies": {
+    "@superflycss/variables-colors": "^3.0.4"
+  }
+}

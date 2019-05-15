@@ -1,0 +1,1823 @@
+/* =======================================
+   EFFECTS
+   Event based and non event based border, 
+   background, and text color effects
+   ======================================= */
+
+.u-background-lighten-0 {
+  background: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important;
+  }
+
+.u-background-darken-0 {
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;
+  }
+
+.u-border-darken-0 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;
+  }
+
+.u-border-lighten-0 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important;
+  }
+
+.u-background-lighten-1 {
+  background: linear-gradient( rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)) !important;
+  }
+
+.u-background-darken-1 {
+  background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)) !important;
+  }
+
+.u-border-darken-1 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)) !important;
+  }
+
+.u-border-lighten-1 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)) !important;
+  }
+
+.u-background-lighten-2 {
+  background: linear-gradient( rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02)) !important;
+  }
+
+.u-background-darken-2 {
+  background: linear-gradient( rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02)) !important;
+  }
+
+.u-border-darken-2 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02)) !important;
+  }
+
+.u-border-lighten-2 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02)) !important;
+  }
+
+.u-background-lighten-3 {
+  background: linear-gradient( rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)) !important;
+  }
+
+.u-background-darken-3 {
+  background: linear-gradient( rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)) !important;
+  }
+
+.u-border-darken-3 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)) !important;
+  }
+
+.u-border-lighten-3 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)) !important;
+  }
+
+.u-background-lighten-4 {
+  background: linear-gradient( rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)) !important;
+  }
+
+.u-background-darken-4 {
+  background: linear-gradient( rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)) !important;
+  }
+
+.u-border-darken-4 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)) !important;
+  }
+
+.u-border-lighten-4 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)) !important;
+  }
+
+.u-background-lighten-5 {
+  background: linear-gradient( rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)) !important;
+  }
+
+.u-background-darken-5 {
+  background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)) !important;
+  }
+
+.u-border-darken-5 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)) !important;
+  }
+
+.u-border-lighten-5 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)) !important;
+  }
+
+.u-background-lighten-6 {
+  background: linear-gradient( rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)) !important;
+  }
+
+.u-background-darken-6 {
+  background: linear-gradient( rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)) !important;
+  }
+
+.u-border-darken-6 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)) !important;
+  }
+
+.u-border-lighten-6 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)) !important;
+  }
+
+.u-background-lighten-7 {
+  background: linear-gradient( rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07)) !important;
+  }
+
+.u-background-darken-7 {
+  background: linear-gradient( rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)) !important;
+  }
+
+.u-border-darken-7 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)) !important;
+  }
+
+.u-border-lighten-7 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07)) !important;
+  }
+
+.u-background-lighten-8 {
+  background: linear-gradient( rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)) !important;
+  }
+
+.u-background-darken-8 {
+  background: linear-gradient( rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)) !important;
+  }
+
+.u-border-darken-8 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)) !important;
+  }
+
+.u-border-lighten-8 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)) !important;
+  }
+
+.u-background-lighten-9 {
+  background: linear-gradient( rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09)) !important;
+  }
+
+.u-background-darken-9 {
+  background: linear-gradient( rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)) !important;
+  }
+
+.u-border-darken-9 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)) !important;
+  }
+
+.u-border-lighten-9 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09)) !important;
+  }
+
+.u-background-lighten-10 {
+  background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) !important;
+  }
+
+.u-background-darken-10 {
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) !important;
+  }
+
+.u-border-darken-10 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) !important;
+  }
+
+.u-border-lighten-10 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) !important;
+  }
+
+.u-background-lighten-11 {
+  background: linear-gradient( rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11)) !important;
+  }
+
+.u-background-darken-11 {
+  background: linear-gradient( rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.11)) !important;
+  }
+
+.u-border-darken-11 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.11)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.11)) !important;
+  }
+
+.u-border-lighten-11 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11)) !important;
+  }
+
+.u-background-lighten-12 {
+  background: linear-gradient( rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)) !important;
+  }
+
+.u-background-darken-12 {
+  background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)) !important;
+  }
+
+.u-border-darken-12 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)) !important;
+  }
+
+.u-border-lighten-12 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)) !important;
+  }
+
+.u-background-lighten-13 {
+  background: linear-gradient( rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.13)) !important;
+  }
+
+.u-background-darken-13 {
+  background: linear-gradient( rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13)) !important;
+  }
+
+.u-border-darken-13 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13)) !important;
+  }
+
+.u-border-lighten-13 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.13)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.13)) !important;
+  }
+
+.u-background-lighten-14 {
+  background: linear-gradient( rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14)) !important;
+  }
+
+.u-background-darken-14 {
+  background: linear-gradient( rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.14)) !important;
+  }
+
+.u-border-darken-14 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.14)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.14)) !important;
+  }
+
+.u-border-lighten-14 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14)) !important;
+  }
+
+.u-background-lighten-15 {
+  background: linear-gradient( rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+  }
+
+.u-background-darken-15 {
+  background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)) !important;
+  }
+
+.u-border-darken-15 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)) !important;
+  }
+
+.u-border-lighten-15 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) !important;
+  }
+
+.u-background-lighten-16 {
+  background: linear-gradient( rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)) !important;
+  }
+
+.u-background-darken-16 {
+  background: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)) !important;
+  }
+
+.u-border-darken-16 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)) !important;
+  }
+
+.u-border-lighten-16 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)) !important;
+  }
+
+.u-background-lighten-17 {
+  background: linear-gradient( rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.17)) !important;
+  }
+
+.u-background-darken-17 {
+  background: linear-gradient( rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)) !important;
+  }
+
+.u-border-darken-17 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)) !important;
+  }
+
+.u-border-lighten-17 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.17)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.17)) !important;
+  }
+
+.u-background-lighten-18 {
+  background: linear-gradient( rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18)) !important;
+  }
+
+.u-background-darken-18 {
+  background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)) !important;
+  }
+
+.u-border-darken-18 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)) !important;
+  }
+
+.u-border-lighten-18 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18)) !important;
+  }
+
+.u-background-lighten-19 {
+  background: linear-gradient( rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19)) !important;
+  }
+
+.u-background-darken-19 {
+  background: linear-gradient( rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.19)) !important;
+  }
+
+.u-border-darken-19 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.19)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.19)) !important;
+  }
+
+.u-border-lighten-19 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19)) !important;
+  }
+
+.u-background-lighten-20 {
+  background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) !important;
+  }
+
+.u-background-darken-20 {
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) !important;
+  }
+
+.u-border-darken-20 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) !important;
+  }
+
+.u-border-lighten-20 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) !important;
+  }
+
+.u-background-lighten-21 {
+  background: linear-gradient( rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.21)) !important;
+  }
+
+.u-background-darken-21 {
+  background: linear-gradient( rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.21)) !important;
+  }
+
+.u-border-darken-21 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.21)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.21)) !important;
+  }
+
+.u-border-lighten-21 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.21)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.21)) !important;
+  }
+
+.u-background-lighten-22 {
+  background: linear-gradient( rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22)) !important;
+  }
+
+.u-background-darken-22 {
+  background: linear-gradient( rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)) !important;
+  }
+
+.u-border-darken-22 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)) !important;
+  }
+
+.u-border-lighten-22 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22)) !important;
+  }
+
+.u-background-lighten-23 {
+  background: linear-gradient( rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)) !important;
+  }
+
+.u-background-darken-23 {
+  background: linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)) !important;
+  }
+
+.u-border-darken-23 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)) !important;
+  }
+
+.u-border-lighten-23 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)) !important;
+  }
+
+.u-background-lighten-24 {
+  background: linear-gradient( rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)) !important;
+  }
+
+.u-background-darken-24 {
+  background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)) !important;
+  }
+
+.u-border-darken-24 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)) !important;
+  }
+
+.u-border-lighten-24 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)) !important;
+  }
+
+.u-background-lighten-25 {
+  background: linear-gradient( rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)) !important;
+  }
+
+.u-background-darken-25 {
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)) !important;
+  }
+
+.u-border-darken-25 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)) !important;
+  }
+
+.u-border-lighten-25 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)) !important;
+  }
+
+.u-background-lighten-26 {
+  background: linear-gradient( rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.26)) !important;
+  }
+
+.u-background-darken-26 {
+  background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)) !important;
+  }
+
+.u-border-darken-26 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)) !important;
+  }
+
+.u-border-lighten-26 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.26)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.26)) !important;
+  }
+
+.u-background-lighten-27 {
+  background: linear-gradient( rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.27)) !important;
+  }
+
+.u-background-darken-27 {
+  background: linear-gradient( rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27)) !important;
+  }
+
+.u-border-darken-27 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27)) !important;
+  }
+
+.u-border-lighten-27 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.27)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.27)) !important;
+  }
+
+.u-background-lighten-28 {
+  background: linear-gradient( rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.28)) !important;
+  }
+
+.u-background-darken-28 {
+  background: linear-gradient( rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)) !important;
+  }
+
+.u-border-darken-28 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)) !important;
+  }
+
+.u-border-lighten-28 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.28)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.28)) !important;
+  }
+
+.u-background-lighten-29 {
+  background: linear-gradient( rgba(255, 255, 255, 0.29), rgba(255, 255, 255, 0.29)) !important;
+  }
+
+.u-background-darken-29 {
+  background: linear-gradient( rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29)) !important;
+  }
+
+.u-border-darken-29 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29)) !important;
+  }
+
+.u-border-lighten-29 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.29), rgba(255, 255, 255, 0.29), rgba(255, 255, 255, 0.29)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.29), rgba(255, 255, 255, 0.29), rgba(255, 255, 255, 0.29)) !important;
+  }
+
+.u-background-lighten-30 {
+  background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)) !important;
+  }
+
+.u-background-darken-30 {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) !important;
+  }
+
+.u-border-darken-30 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) !important;
+  }
+
+.u-border-lighten-30 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)) !important;
+  }
+
+.u-background-lighten-31 {
+  background: linear-gradient( rgba(255, 255, 255, 0.31), rgba(255, 255, 255, 0.31)) !important;
+  }
+
+.u-background-darken-31 {
+  background: linear-gradient( rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)) !important;
+  }
+
+.u-border-darken-31 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)) !important;
+  }
+
+.u-border-lighten-31 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.31), rgba(255, 255, 255, 0.31), rgba(255, 255, 255, 0.31)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.31), rgba(255, 255, 255, 0.31), rgba(255, 255, 255, 0.31)) !important;
+  }
+
+.u-background-lighten-32 {
+  background: linear-gradient( rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.32)) !important;
+  }
+
+.u-background-darken-32 {
+  background: linear-gradient( rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32)) !important;
+  }
+
+.u-border-darken-32 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32)) !important;
+  }
+
+.u-border-lighten-32 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.32)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.32)) !important;
+  }
+
+.u-background-lighten-33 {
+  background: linear-gradient( rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)) !important;
+  }
+
+.u-background-darken-33 {
+  background: linear-gradient( rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)) !important;
+  }
+
+.u-border-darken-33 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)) !important;
+  }
+
+.u-border-lighten-33 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)) !important;
+  }
+
+.u-background-lighten-34 {
+  background: linear-gradient( rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.34)) !important;
+  }
+
+.u-background-darken-34 {
+  background: linear-gradient( rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)) !important;
+  }
+
+.u-border-darken-34 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)) !important;
+  }
+
+.u-border-lighten-34 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.34)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.34)) !important;
+  }
+
+.u-background-lighten-35 {
+  background: linear-gradient( rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)) !important;
+  }
+
+.u-background-darken-35 {
+  background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)) !important;
+  }
+
+.u-border-darken-35 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)) !important;
+  }
+
+.u-border-lighten-35 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)) !important;
+  }
+
+.u-background-lighten-36 {
+  background: linear-gradient( rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36)) !important;
+  }
+
+.u-background-darken-36 {
+  background: linear-gradient( rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)) !important;
+  }
+
+.u-border-darken-36 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)) !important;
+  }
+
+.u-border-lighten-36 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.36)) !important;
+  }
+
+.u-background-lighten-37 {
+  background: linear-gradient( rgba(255, 255, 255, 0.37), rgba(255, 255, 255, 0.37)) !important;
+  }
+
+.u-background-darken-37 {
+  background: linear-gradient( rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)) !important;
+  }
+
+.u-border-darken-37 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)) !important;
+  }
+
+.u-border-lighten-37 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.37), rgba(255, 255, 255, 0.37), rgba(255, 255, 255, 0.37)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.37), rgba(255, 255, 255, 0.37), rgba(255, 255, 255, 0.37)) !important;
+  }
+
+.u-background-lighten-38 {
+  background: linear-gradient( rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.38)) !important;
+  }
+
+.u-background-darken-38 {
+  background: linear-gradient( rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)) !important;
+  }
+
+.u-border-darken-38 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)) !important;
+  }
+
+.u-border-lighten-38 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.38)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.38)) !important;
+  }
+
+.u-background-lighten-39 {
+  background: linear-gradient( rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.39)) !important;
+  }
+
+.u-background-darken-39 {
+  background: linear-gradient( rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)) !important;
+  }
+
+.u-border-darken-39 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)) !important;
+  }
+
+.u-border-lighten-39 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.39)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.39)) !important;
+  }
+
+.u-background-lighten-40 {
+  background: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)) !important;
+  }
+
+.u-background-darken-40 {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) !important;
+  }
+
+.u-border-darken-40 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) !important;
+  }
+
+.u-border-lighten-40 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)) !important;
+  }
+
+.u-background-lighten-41 {
+  background: linear-gradient( rgba(255, 255, 255, 0.41), rgba(255, 255, 255, 0.41)) !important;
+  }
+
+.u-background-darken-41 {
+  background: linear-gradient( rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41)) !important;
+  }
+
+.u-border-darken-41 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41)) !important;
+  }
+
+.u-border-lighten-41 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.41), rgba(255, 255, 255, 0.41), rgba(255, 255, 255, 0.41)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.41), rgba(255, 255, 255, 0.41), rgba(255, 255, 255, 0.41)) !important;
+  }
+
+.u-background-lighten-42 {
+  background: linear-gradient( rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.42)) !important;
+  }
+
+.u-background-darken-42 {
+  background: linear-gradient( rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)) !important;
+  }
+
+.u-border-darken-42 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)) !important;
+  }
+
+.u-border-lighten-42 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.42)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.42)) !important;
+  }
+
+.u-background-lighten-43 {
+  background: linear-gradient( rgba(255, 255, 255, 0.43), rgba(255, 255, 255, 0.43)) !important;
+  }
+
+.u-background-darken-43 {
+  background: linear-gradient( rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)) !important;
+  }
+
+.u-border-darken-43 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)) !important;
+  }
+
+.u-border-lighten-43 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.43), rgba(255, 255, 255, 0.43), rgba(255, 255, 255, 0.43)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.43), rgba(255, 255, 255, 0.43), rgba(255, 255, 255, 0.43)) !important;
+  }
+
+.u-background-lighten-44 {
+  background: linear-gradient( rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.44)) !important;
+  }
+
+.u-background-darken-44 {
+  background: linear-gradient( rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)) !important;
+  }
+
+.u-border-darken-44 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)) !important;
+  }
+
+.u-border-lighten-44 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.44)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.44)) !important;
+  }
+
+.u-background-lighten-45 {
+  background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)) !important;
+  }
+
+.u-background-darken-45 {
+  background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)) !important;
+  }
+
+.u-border-darken-45 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)) !important;
+  }
+
+.u-border-lighten-45 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)) !important;
+  }
+
+.u-background-lighten-46 {
+  background: linear-gradient( rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0.46)) !important;
+  }
+
+.u-background-darken-46 {
+  background: linear-gradient( rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)) !important;
+  }
+
+.u-border-darken-46 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)) !important;
+  }
+
+.u-border-lighten-46 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0.46)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0.46)) !important;
+  }
+
+.u-background-lighten-47 {
+  background: linear-gradient( rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)) !important;
+  }
+
+.u-background-darken-47 {
+  background: linear-gradient( rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)) !important;
+  }
+
+.u-border-darken-47 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)) !important;
+  }
+
+.u-border-lighten-47 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)) !important;
+  }
+
+.u-background-lighten-48 {
+  background: linear-gradient( rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48)) !important;
+  }
+
+.u-background-darken-48 {
+  background: linear-gradient( rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)) !important;
+  }
+
+.u-border-darken-48 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)) !important;
+  }
+
+.u-border-lighten-48 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.48)) !important;
+  }
+
+.u-background-lighten-49 {
+  background: linear-gradient( rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0.49)) !important;
+  }
+
+.u-background-darken-49 {
+  background: linear-gradient( rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)) !important;
+  }
+
+.u-border-darken-49 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)) !important;
+  }
+
+.u-border-lighten-49 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0.49)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0.49)) !important;
+  }
+
+.u-background-lighten-50 {
+  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) !important;
+  }
+
+.u-background-darken-50 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+  }
+
+.u-border-darken-50 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+  }
+
+.u-border-lighten-50 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) !important;
+  }
+
+.u-background-lighten-51 {
+  background: linear-gradient( rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51)) !important;
+  }
+
+.u-background-darken-51 {
+  background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)) !important;
+  }
+
+.u-border-darken-51 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)) !important;
+  }
+
+.u-border-lighten-51 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51)) !important;
+  }
+
+.u-background-lighten-52 {
+  background: linear-gradient( rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.52)) !important;
+  }
+
+.u-background-darken-52 {
+  background: linear-gradient( rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)) !important;
+  }
+
+.u-border-darken-52 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)) !important;
+  }
+
+.u-border-lighten-52 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.52)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.52)) !important;
+  }
+
+.u-background-lighten-53 {
+  background: linear-gradient( rgba(255, 255, 255, 0.53), rgba(255, 255, 255, 0.53)) !important;
+  }
+
+.u-background-darken-53 {
+  background: linear-gradient( rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)) !important;
+  }
+
+.u-border-darken-53 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)) !important;
+  }
+
+.u-border-lighten-53 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.53), rgba(255, 255, 255, 0.53), rgba(255, 255, 255, 0.53)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.53), rgba(255, 255, 255, 0.53), rgba(255, 255, 255, 0.53)) !important;
+  }
+
+.u-background-lighten-54 {
+  background: linear-gradient( rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)) !important;
+  }
+
+.u-background-darken-54 {
+  background: linear-gradient( rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)) !important;
+  }
+
+.u-border-darken-54 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)) !important;
+  }
+
+.u-border-lighten-54 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)) !important;
+  }
+
+.u-background-lighten-55 {
+  background: linear-gradient( rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)) !important;
+  }
+
+.u-background-darken-55 {
+  background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) !important;
+  }
+
+.u-border-darken-55 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) !important;
+  }
+
+.u-border-lighten-55 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)) !important;
+  }
+
+.u-background-lighten-56 {
+  background: linear-gradient( rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0.56)) !important;
+  }
+
+.u-background-darken-56 {
+  background: linear-gradient( rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) !important;
+  }
+
+.u-border-darken-56 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) !important;
+  }
+
+.u-border-lighten-56 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0.56)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0.56)) !important;
+  }
+
+.u-background-lighten-57 {
+  background: linear-gradient( rgba(255, 255, 255, 0.57), rgba(255, 255, 255, 0.57)) !important;
+  }
+
+.u-background-darken-57 {
+  background: linear-gradient( rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)) !important;
+  }
+
+.u-border-darken-57 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)) !important;
+  }
+
+.u-border-lighten-57 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.57), rgba(255, 255, 255, 0.57), rgba(255, 255, 255, 0.57)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.57), rgba(255, 255, 255, 0.57), rgba(255, 255, 255, 0.57)) !important;
+  }
+
+.u-background-lighten-58 {
+  background: linear-gradient( rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.58)) !important;
+  }
+
+.u-background-darken-58 {
+  background: linear-gradient( rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)) !important;
+  }
+
+.u-border-darken-58 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)) !important;
+  }
+
+.u-border-lighten-58 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.58)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.58)) !important;
+  }
+
+.u-background-lighten-59 {
+  background: linear-gradient( rgba(255, 255, 255, 0.59), rgba(255, 255, 255, 0.59)) !important;
+  }
+
+.u-background-darken-59 {
+  background: linear-gradient( rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)) !important;
+  }
+
+.u-border-darken-59 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)) !important;
+  }
+
+.u-border-lighten-59 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.59), rgba(255, 255, 255, 0.59), rgba(255, 255, 255, 0.59)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.59), rgba(255, 255, 255, 0.59), rgba(255, 255, 255, 0.59)) !important;
+  }
+
+.u-background-lighten-60 {
+  background: linear-gradient( rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) !important;
+  }
+
+.u-background-darken-60 {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+  }
+
+.u-border-darken-60 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+  }
+
+.u-border-lighten-60 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) !important;
+  }
+
+.u-background-lighten-61 {
+  background: linear-gradient( rgba(255, 255, 255, 0.61), rgba(255, 255, 255, 0.61)) !important;
+  }
+
+.u-background-darken-61 {
+  background: linear-gradient( rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)) !important;
+  }
+
+.u-border-darken-61 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)) !important;
+  }
+
+.u-border-lighten-61 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.61), rgba(255, 255, 255, 0.61), rgba(255, 255, 255, 0.61)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.61), rgba(255, 255, 255, 0.61), rgba(255, 255, 255, 0.61)) !important;
+  }
+
+.u-background-lighten-62 {
+  background: linear-gradient( rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.62)) !important;
+  }
+
+.u-background-darken-62 {
+  background: linear-gradient( rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)) !important;
+  }
+
+.u-border-darken-62 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)) !important;
+  }
+
+.u-border-lighten-62 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.62)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.62)) !important;
+  }
+
+.u-background-lighten-63 {
+  background: linear-gradient( rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.63)) !important;
+  }
+
+.u-background-darken-63 {
+  background: linear-gradient( rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)) !important;
+  }
+
+.u-border-darken-63 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)) !important;
+  }
+
+.u-border-lighten-63 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.63)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.63)) !important;
+  }
+
+.u-background-lighten-64 {
+  background: linear-gradient( rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.64)) !important;
+  }
+
+.u-background-darken-64 {
+  background: linear-gradient( rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)) !important;
+  }
+
+.u-border-darken-64 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)) !important;
+  }
+
+.u-border-lighten-64 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.64)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.64)) !important;
+  }
+
+.u-background-lighten-65 {
+  background: linear-gradient( rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)) !important;
+  }
+
+.u-background-darken-65 {
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)) !important;
+  }
+
+.u-border-darken-65 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)) !important;
+  }
+
+.u-border-lighten-65 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)) !important;
+  }
+
+.u-background-lighten-66 {
+  background: linear-gradient( rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.66)) !important;
+  }
+
+.u-background-darken-66 {
+  background: linear-gradient( rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)) !important;
+  }
+
+.u-border-darken-66 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)) !important;
+  }
+
+.u-border-lighten-66 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.66)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.66)) !important;
+  }
+
+.u-background-lighten-67 {
+  background: linear-gradient( rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)) !important;
+  }
+
+.u-background-darken-67 {
+  background: linear-gradient( rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)) !important;
+  }
+
+.u-border-darken-67 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)) !important;
+  }
+
+.u-border-lighten-67 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)) !important;
+  }
+
+.u-background-lighten-68 {
+  background: linear-gradient( rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.68)) !important;
+  }
+
+.u-background-darken-68 {
+  background: linear-gradient( rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)) !important;
+  }
+
+.u-border-darken-68 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)) !important;
+  }
+
+.u-border-lighten-68 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.68)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.68)) !important;
+  }
+
+.u-background-lighten-69 {
+  background: linear-gradient( rgba(255, 255, 255, 0.69), rgba(255, 255, 255, 0.69)) !important;
+  }
+
+.u-background-darken-69 {
+  background: linear-gradient( rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)) !important;
+  }
+
+.u-border-darken-69 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)) !important;
+  }
+
+.u-border-lighten-69 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.69), rgba(255, 255, 255, 0.69), rgba(255, 255, 255, 0.69)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.69), rgba(255, 255, 255, 0.69), rgba(255, 255, 255, 0.69)) !important;
+  }
+
+.u-background-lighten-70 {
+  background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)) !important;
+  }
+
+.u-background-darken-70 {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
+  }
+
+.u-border-darken-70 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
+  }
+
+.u-border-lighten-70 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)) !important;
+  }
+
+.u-background-lighten-71 {
+  background: linear-gradient( rgba(255, 255, 255, 0.71), rgba(255, 255, 255, 0.71)) !important;
+  }
+
+.u-background-darken-71 {
+  background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)) !important;
+  }
+
+.u-border-darken-71 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)) !important;
+  }
+
+.u-border-lighten-71 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.71), rgba(255, 255, 255, 0.71), rgba(255, 255, 255, 0.71)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.71), rgba(255, 255, 255, 0.71), rgba(255, 255, 255, 0.71)) !important;
+  }
+
+.u-background-lighten-72 {
+  background: linear-gradient( rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)) !important;
+  }
+
+.u-background-darken-72 {
+  background: linear-gradient( rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)) !important;
+  }
+
+.u-border-darken-72 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)) !important;
+  }
+
+.u-border-lighten-72 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)) !important;
+  }
+
+.u-background-lighten-73 {
+  background: linear-gradient( rgba(255, 255, 255, 0.73), rgba(255, 255, 255, 0.73)) !important;
+  }
+
+.u-background-darken-73 {
+  background: linear-gradient( rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)) !important;
+  }
+
+.u-border-darken-73 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)) !important;
+  }
+
+.u-border-lighten-73 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.73), rgba(255, 255, 255, 0.73), rgba(255, 255, 255, 0.73)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.73), rgba(255, 255, 255, 0.73), rgba(255, 255, 255, 0.73)) !important;
+  }
+
+.u-background-lighten-74 {
+  background: linear-gradient( rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.74)) !important;
+  }
+
+.u-background-darken-74 {
+  background: linear-gradient( rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)) !important;
+  }
+
+.u-border-darken-74 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)) !important;
+  }
+
+.u-border-lighten-74 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.74)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.74)) !important;
+  }
+
+.u-background-lighten-75 {
+  background: linear-gradient( rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)) !important;
+  }
+
+.u-background-darken-75 {
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) !important;
+  }
+
+.u-border-darken-75 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) !important;
+  }
+
+.u-border-lighten-75 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)) !important;
+  }
+
+.u-background-lighten-76 {
+  background: linear-gradient( rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)) !important;
+  }
+
+.u-background-darken-76 {
+  background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)) !important;
+  }
+
+.u-border-darken-76 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)) !important;
+  }
+
+.u-border-lighten-76 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)) !important;
+  }
+
+.u-background-lighten-77 {
+  background: linear-gradient( rgba(255, 255, 255, 0.77), rgba(255, 255, 255, 0.77)) !important;
+  }
+
+.u-background-darken-77 {
+  background: linear-gradient( rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)) !important;
+  }
+
+.u-border-darken-77 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)) !important;
+  }
+
+.u-border-lighten-77 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.77), rgba(255, 255, 255, 0.77), rgba(255, 255, 255, 0.77)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.77), rgba(255, 255, 255, 0.77), rgba(255, 255, 255, 0.77)) !important;
+  }
+
+.u-background-lighten-78 {
+  background: linear-gradient( rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) !important;
+  }
+
+.u-background-darken-78 {
+  background: linear-gradient( rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)) !important;
+  }
+
+.u-border-darken-78 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)) !important;
+  }
+
+.u-border-lighten-78 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) !important;
+  }
+
+.u-background-lighten-79 {
+  background: linear-gradient( rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.79)) !important;
+  }
+
+.u-background-darken-79 {
+  background: linear-gradient( rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)) !important;
+  }
+
+.u-border-darken-79 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)) !important;
+  }
+
+.u-border-lighten-79 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.79)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.79)) !important;
+  }
+
+.u-background-lighten-80 {
+  background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)) !important;
+  }
+
+.u-background-darken-80 {
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) !important;
+  }
+
+.u-border-darken-80 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) !important;
+  }
+
+.u-border-lighten-80 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)) !important;
+  }
+
+.u-background-lighten-81 {
+  background: linear-gradient( rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.81)) !important;
+  }
+
+.u-background-darken-81 {
+  background: linear-gradient( rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81)) !important;
+  }
+
+.u-border-darken-81 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81)) !important;
+  }
+
+.u-border-lighten-81 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.81)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.81)) !important;
+  }
+
+.u-background-lighten-82 {
+  background: linear-gradient( rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)) !important;
+  }
+
+.u-background-darken-82 {
+  background: linear-gradient( rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)) !important;
+  }
+
+.u-border-darken-82 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)) !important;
+  }
+
+.u-border-lighten-82 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)) !important;
+  }
+
+.u-background-lighten-83 {
+  background: linear-gradient( rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)) !important;
+  }
+
+.u-background-darken-83 {
+  background: linear-gradient( rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)) !important;
+  }
+
+.u-border-darken-83 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)) !important;
+  }
+
+.u-border-lighten-83 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)) !important;
+  }
+
+.u-background-lighten-84 {
+  background: linear-gradient( rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84)) !important;
+  }
+
+.u-background-darken-84 {
+  background: linear-gradient( rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)) !important;
+  }
+
+.u-border-darken-84 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)) !important;
+  }
+
+.u-border-lighten-84 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84)) !important;
+  }
+
+.u-background-lighten-85 {
+  background: linear-gradient( rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)) !important;
+  }
+
+.u-background-darken-85 {
+  background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)) !important;
+  }
+
+.u-border-darken-85 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)) !important;
+  }
+
+.u-border-lighten-85 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)) !important;
+  }
+
+.u-background-lighten-86 {
+  background: linear-gradient( rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86)) !important;
+  }
+
+.u-background-darken-86 {
+  background: linear-gradient( rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)) !important;
+  }
+
+.u-border-darken-86 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)) !important;
+  }
+
+.u-border-lighten-86 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86)) !important;
+  }
+
+.u-background-lighten-87 {
+  background: linear-gradient( rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)) !important;
+  }
+
+.u-background-darken-87 {
+  background: linear-gradient( rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)) !important;
+  }
+
+.u-border-darken-87 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)) !important;
+  }
+
+.u-border-lighten-87 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)) !important;
+  }
+
+.u-background-lighten-88 {
+  background: linear-gradient( rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)) !important;
+  }
+
+.u-background-darken-88 {
+  background: linear-gradient( rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)) !important;
+  }
+
+.u-border-darken-88 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)) !important;
+  }
+
+.u-border-lighten-88 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)) !important;
+  }
+
+.u-background-lighten-89 {
+  background: linear-gradient( rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.89)) !important;
+  }
+
+.u-background-darken-89 {
+  background: linear-gradient( rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)) !important;
+  }
+
+.u-border-darken-89 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)) !important;
+  }
+
+.u-border-lighten-89 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.89)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.89)) !important;
+  }
+
+.u-background-lighten-90 {
+  background: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)) !important;
+  }
+
+.u-background-darken-90 {
+  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)) !important;
+  }
+
+.u-border-darken-90 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)) !important;
+  }
+
+.u-border-lighten-90 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)) !important;
+  }
+
+.u-background-lighten-91 {
+  background: linear-gradient( rgba(255, 255, 255, 0.91), rgba(255, 255, 255, 0.91)) !important;
+  }
+
+.u-background-darken-91 {
+  background: linear-gradient( rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)) !important;
+  }
+
+.u-border-darken-91 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)) !important;
+  }
+
+.u-border-lighten-91 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.91), rgba(255, 255, 255, 0.91), rgba(255, 255, 255, 0.91)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.91), rgba(255, 255, 255, 0.91), rgba(255, 255, 255, 0.91)) !important;
+  }
+
+.u-background-lighten-92 {
+  background: linear-gradient( rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)) !important;
+  }
+
+.u-background-darken-92 {
+  background: linear-gradient( rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)) !important;
+  }
+
+.u-border-darken-92 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)) !important;
+  }
+
+.u-border-lighten-92 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)) !important;
+  }
+
+.u-background-lighten-93 {
+  background: linear-gradient( rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)) !important;
+  }
+
+.u-background-darken-93 {
+  background: linear-gradient( rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93)) !important;
+  }
+
+.u-border-darken-93 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93)) !important;
+  }
+
+.u-border-lighten-93 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)) !important;
+  }
+
+.u-background-lighten-94 {
+  background: linear-gradient( rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)) !important;
+  }
+
+.u-background-darken-94 {
+  background: linear-gradient( rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94)) !important;
+  }
+
+.u-border-darken-94 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94)) !important;
+  }
+
+.u-border-lighten-94 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)) !important;
+  }
+
+.u-background-lighten-95 {
+  background: linear-gradient( rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)) !important;
+  }
+
+.u-background-darken-95 {
+  background: linear-gradient( rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)) !important;
+  }
+
+.u-border-darken-95 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)) !important;
+  }
+
+.u-border-lighten-95 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)) !important;
+  }
+
+.u-background-lighten-96 {
+  background: linear-gradient( rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)) !important;
+  }
+
+.u-background-darken-96 {
+  background: linear-gradient( rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.96)) !important;
+  }
+
+.u-border-darken-96 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.96)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.96)) !important;
+  }
+
+.u-border-lighten-96 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)) !important;
+  }
+
+.u-background-lighten-97 {
+  background: linear-gradient( rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)) !important;
+  }
+
+.u-background-darken-97 {
+  background: linear-gradient( rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97)) !important;
+  }
+
+.u-border-darken-97 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97)) !important;
+  }
+
+.u-border-lighten-97 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)) !important;
+  }
+
+.u-background-lighten-98 {
+  background: linear-gradient( rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.98)) !important;
+  }
+
+.u-background-darken-98 {
+  background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.98)) !important;
+  }
+
+.u-border-darken-98 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.98)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.98)) !important;
+  }
+
+.u-border-lighten-98 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.98)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.98)) !important;
+  }
+
+.u-background-lighten-99 {
+  background: linear-gradient( rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.99)) !important;
+  }
+
+.u-background-darken-99 {
+  background: linear-gradient( rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.99)) !important;
+  }
+
+.u-border-darken-99 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.99)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.99)) !important;
+  }
+
+.u-border-lighten-99 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.99)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.99)) !important;
+  }
+
+.u-background-lighten-100 {
+  background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+  }
+
+.u-background-darken-100 {
+  background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
+  }
+
+.u-border-darken-100 {
+  -o-border-image: linear-gradient( to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
+     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
+  }
+
+.u-border-lighten-100 {
+  -o-border-image: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+     border-image: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+  }

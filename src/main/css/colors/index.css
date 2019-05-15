@@ -1,0 +1,34 @@
+/* =======================================
+   EFFECTS
+   Event based and non event based border, 
+   background, and text color effects
+   ======================================= */
+
+@for $percentage from 0 to 100 {
+  :root {
+    --u-background-lighten-$(percentage) {
+      background: linear-gradient( rgba(255, 255, 255, calc($(percentage)/100)), rgba(255, 255, 255, calc($(percentage)/100))) !important;
+    }
+    --u-background-darken-$(percentage) {
+      background: linear-gradient( rgba(0, 0, 0, calc($(percentage)/100)), rgba(0, 0, 0, calc($(percentage)/100))) !important;
+    }
+    --u-border-darken-$(percentage) {
+      border-image: linear-gradient( to bottom, rgba(0, 0, 0, calc($(percentage)/100)), rgba(0, 0, 0, calc($(percentage)/100)), rgba(0, 0, 0, calc($(percentage)/100))) !important;
+    }
+    --u-border-lighten-$(percentage) {
+      border-image: linear-gradient( to bottom, rgba(255, 255, 255, calc($(percentage)/100)), rgba(255, 255, 255, calc($(percentage)/100)), rgba(255, 255, 255, calc($(percentage)/100))) !important;
+    }
+  }
+  .u-background-lighten-$(percentage) {
+    @apply(--u-background-lighten-$(percentage));
+  }
+  .u-background-darken-$(percentage) {
+    @apply(--u-background-darken-$(percentage));
+  }
+  .u-border-darken-$(percentage) {
+    @apply(--u-border-darken-$(percentage));
+  }
+  .u-border-lighten-$(percentage) {
+    @apply(--u-border-lighten-$(percentage));
+  }
+}

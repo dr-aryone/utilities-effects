@@ -1,0 +1,27 @@
+/*! superfly-css-utilities-effects | MIT License | https://github.com/superfly-css/superfly-css-utilities-effects/blob/master/LICENSE.md */
+
+/* =======================================
+   EFFECTS
+   Most of the effects have include events such as hover, etc.
+   0: Filters (Text, invert, etc.)
+   1: Color effects (Applied to borders, backgrounds, text, etc)
+   2: Transition Effects
+   3: Letter spacing
+   4: Box shadows
+   ====q=================================== */
+
+/* 0 */
+
+@import "./filters/";
+/* 1 */
+
+@import "./colors/";
+/* 2 */
+
+@import "./transitions/";
+/* 3 */
+
+@import "./letters/";
+/* 4 */
+
+@import "./shadows/";
